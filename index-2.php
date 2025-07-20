@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php $headTitle = 'Remons'; ?>
+<?php $headTitle = 'Whizwheels - Bike Rental'; ?>
 <?php include './partials/head.php' ?>
 
 <body>
@@ -56,16 +56,15 @@
                                             <li><a href="faq.php">Faq's</a></li>
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href="program-details.php">
-                                            Cars
+                                    <li class="has-dropdown">
+                                        <a href="bike-grid.php">
+                                            Bikes
                                             <i class="fas fa-angle-down"></i>
                                         </a>
                                         <ul class="submenu">
-                                            <li><a href="car-grid.php">Car Grid</a></li>
-                                            <li><a href="car-list.php">Car List</a></li>
-                                            <li><a href="car-list-sidebar.php">Car Sidebar</a></li>
-                                            <li><a href="car-details.php">Car Details</a></li>
+                                            <li><a href="bike-grid.php">Bike Grid</a></li>
+                                            <li><a href="bike-list.php">Bike List</a></li>
+                                            <li><a href="bike-details.php">Bike Details</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -92,12 +91,12 @@
                             </div>
                             <div class="content">
                                 <p>Call Anytime</p>
-                                <h6><a href="tel:+9288009850">+92 (8800) - 9850</a></h6>
+                                <h6><a href="tel:+919876543210">+91 98765 43210</a></h6>
                             </div>
                         </div>
                         <div class="header-button">
-                            <a href="car-details.php" class="theme-btn">
-                                Find a Car
+                            <a href="bike-grid.php" class="theme-btn">
+                                Find a Bike
                             </a>
                         </div>
                         <div class="header__hamburger d-xl-none my-auto">
@@ -123,10 +122,10 @@
             <img src="assets/img/hero/shadow.png" alt="img">
         </div>
         <div class="array-button">
-            <button class="image-array-left bg-cover" style="background-image: url('assets/img/bg-slideshow-02.jpg');">
+            <button class="image-array-left bg-cover" style="background-image: url('https://placehold.co/200x200/a2d2ff/333333?text=Ride+1');">
                 <i class="fa-solid fa-chevron-left"></i>
             </button>
-            <button class="image-array-right bg-cover" style="background-image: url('assets/img/bg-slideshow-02.jpg');">
+            <button class="image-array-right bg-cover" style="background-image: url('https://placehold.co/200x200/ffafcc/333333?text=Ride+2');">
                 <i class="fa-solid fa-chevron-right"></i>
             </button>
         </div>
@@ -145,17 +144,17 @@
                                 <div class="col-xl-7 col-lg-6">
                                     <div class="hero-content">
                                         <h6 data-animation="fadeInUp" data-delay=".3s" class="hero-title">Welcome to
-                                            Remons Rental</h6>
+                                            Whizwheels Rental</h6>
                                         <h1 data-animation="fadeInUp" data-delay=".5s">
                                             Search, Book <br>
-                                            & Rent Car
+                                            & Rent a Bike
                                             <span>Easily</span>
                                         </h1>
                                     </div>
                                 </div>
                                 <div class="col-xl-5 col-lg-6">
                                     <div class="hero-image" data-animation="fadeInUp" data-delay=".7s">
-                                        <img src="assets/img/hero/car.png" alt="img">
+                                        <img src="https://placehold.co/800x600/cddafd/333333?text=Awesome+Bike" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -175,17 +174,17 @@
                                 <div class="col-xl-7 col-lg-6">
                                     <div class="hero-content">
                                         <h6 data-animation="fadeInUp" data-delay=".3s" class="hero-title">Welcome to
-                                            Remons Rental</h6>
+                                            Whizwheels Rental</h6>
                                         <h1 data-animation="fadeInUp" data-delay=".5s">
-                                            Search, Book <br>
-                                            & Rent Car
-                                            <span>Easily</span>
+                                            Your Adventure <br>
+                                            Starts on Two
+                                            <span>Wheels</span>
                                         </h1>
                                     </div>
                                 </div>
                                 <div class="col-xl-5 col-lg-6">
                                     <div class="hero-image" data-animation="fadeInUp" data-delay=".7s">
-                                        <img src="assets/img/hero/car.png" alt="img">
+                                        <img src="https://placehold.co/800x600/ffafcc/333333?text=Another+Bike" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -204,21 +203,11 @@
                     <label class="field-label">Pick-up Location</label>
                     <div class="category-oneadjust">
                         <select name="cate" class="category">
-                            <option value="1">
-                                Select Location
-                            </option>
-                            <option value="1">
-                                Houston
-                            </option>
-                            <option value="1">
-                                Texas
-                            </option>
-                            <option value="1">
-                                New York
-                            </option>
-                            <option value="1">
-                                Other Location
-                            </option>
+                            <option value="1">Select Location</option>
+                            <option value="2">Mysore Palace</option>
+                            <option value="3">Brindavan Gardens</option>
+                            <option value="4">KRS Backwaters</option>
+                            <option value="5">Chamundi Hills</option>
                         </select>
                     </div>
                 </div>
@@ -232,148 +221,138 @@
                 <div class="pickup-items">
                     <label class="field-label">Dropoff Date</label>
                     <div id="datepicker2" class="input-group date" data-date-format="dd-mm-yyyy">
-                        <input class="form-control" type="text" placeholder="Check in" readonly>
+                        <input class="form-control" type="text" placeholder="Check out" readonly>
                         <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                     </div>
                 </div>
                 <div class="pickup-items">
-                    <label class="field-label">Car Type</label>
+                    <label class="field-label">Bike Type</label>
                     <div class="category-oneadjust">
                         <select name="cate" class="category">
-                            <option value="1">
-                                cars
-                            </option>
-                            <option value="1">
-                                sedan
-                            </option>
-                            <option value="1">
-                                sports
-                            </option>
-                            <option value="1">
-                                jeep
-                            </option>
-                            <option value="1">
-                                limousine
-                            </option>
+                            <option value="1">All Bikes</option>
+                            <option value="2">Mountain</option>
+                            <option value="3">Road</option>
+                            <option value="4">Cruiser</option>
+                            <option value="5">Electric</option>
                         </select>
                     </div>
                 </div>
                 <div class="pickup-items">
                     <label class="field-label style-2">button</label>
                     <button class="pickup-btn" type="submit">
-                        Find a Car
+                        Find a Bike
                     </button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Select Car Section Start -->
+    <!-- Select Bike Section Start -->
     <section class="select-car-section section-padding fix">
         <div class="container">
             <div class="section-title text-center">
                 <img src="assets/img/sub-icon.png" alt="img" class="wow fadeInUp">
-                <span class="wow fadeInUp" data-wow-delay=".2s">select car types</span>
+                <span class="wow fadeInUp" data-wow-delay=".2s">Select Bike Types</span>
                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
                     We’re Offering Popular <br>
-                    Cars Models
+                    Bike Models
                 </h2>
             </div>
             <div class="row">
                 <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="select-car-items">
                         <div class="thumb">
-                            <img src="assets/img/car/popular-car-1.jpg" alt="">
+                            <img src="https://placehold.co/300x200/ffadad/333333?text=Mountain" alt="">
                         </div>
                         <div class="bg-overlay"></div>
                         <div class="icon">
-                            <img src="assets/img/car/icon/01.png" alt="img">
+                            <i class="fa-solid fa-mountain-sun fa-2x text-white"></i>
                         </div>
                         <div class="content">
-                            <h5><a href="car-details.php">Sedan</a></h5>
-                            <p>10 Cars Available</p>
+                            <h5><a href="bike-details.php">Mountain</a></h5>
+                            <p>10 Bikes Available</p>
                         </div>
-                        <a href="car-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="bike-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="select-car-items">
                         <div class="thumb">
-                            <img src="assets/img/car/popular-car-2.jpg" alt="">
+                            <img src="https://placehold.co/300x200/ffd6a5/333333?text=Road" alt="">
                         </div>
                         <div class="bg-overlay"></div>
                         <div class="icon">
-                            <img src="assets/img/car/icon/02.png" alt="img">
+                            <i class="fa-solid fa-road fa-2x text-white"></i>
                         </div>
                         <div class="content">
-                            <h5><a href="car-details.php">SUV</a></h5>
-                            <p>10 Cars Available</p>
+                            <h5><a href="bike-details.php">Road</a></h5>
+                            <p>12 Bikes Available</p>
                         </div>
-                        <a href="car-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="bike-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="select-car-items">
                         <div class="thumb">
-                            <img src="assets/img/car/popular-car-3.jpg" alt="img">
+                            <img src="https://placehold.co/300x200/fdffb6/333333?text=Cruiser" alt="">
                         </div>
                         <div class="bg-overlay"></div>
                         <div class="icon">
-                            <img src="assets/img/car/icon/03.png" alt="img">
+                            <i class="fa-solid fa-couch fa-2x text-white"></i>
                         </div>
                         <div class="content">
-                            <h5><a href="car-details.php">Limousine</a></h5>
-                            <p>10 Cars Available</p>
+                            <h5><a href="bike-details.php">Cruiser</a></h5>
+                            <p>8 Bikes Available</p>
                         </div>
-                        <a href="car-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="bike-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="select-car-items">
                         <div class="thumb">
-                            <img src="assets/img/car/popular-car-4.jpg" alt="img">
+                            <img src="https://placehold.co/300x200/caffbf/333333?text=Hybrid" alt="">
                         </div>
                         <div class="bg-overlay"></div>
                         <div class="icon">
-                            <img src="assets/img/car/icon/04.png" alt="img">
+                            <i class="fa-solid fa-city fa-2x text-white"></i>
                         </div>
                         <div class="content">
-                            <h5><a href="car-details.php">Cabriolet</a></h5>
-                            <p>10 Cars Available</p>
+                            <h5><a href="bike-details.php">Hybrid</a></h5>
+                            <p>15 Bikes Available</p>
                         </div>
-                        <a href="car-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="bike-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="select-car-items">
                         <div class="thumb">
-                            <img src="assets/img/car/popular-car-5.jpg" alt="img">
+                            <img src="https://placehold.co/300x200/9bf6ff/333333?text=Electric" alt="">
                         </div>
                         <div class="bg-overlay"></div>
                         <div class="icon">
-                            <img src="assets/img/car/icon/05.png" alt="img">
+                            <i class="fa-solid fa-bolt-lightning fa-2x text-white"></i>
                         </div>
                         <div class="content">
-                            <h5><a href="car-details.php">Pickup</a></h5>
-                            <p>10 Cars Available</p>
+                            <h5><a href="bike-details.php">Electric</a></h5>
+                            <p>5 Bikes Available</p>
                         </div>
-                        <a href="car-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="bike-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="select-car-items">
                         <div class="thumb">
-                            <img src="assets/img/car/popular-car-6.jpg" alt="img">
+                            <img src="https://placehold.co/300x200/a0c4ff/333333?text=Kids" alt="">
                         </div>
                         <div class="bg-overlay"></div>
                         <div class="icon">
-                            <img src="assets/img/car/icon/06.png" alt="img">
+                            <i class="fa-solid fa-child fa-2x text-white"></i>
                         </div>
                         <div class="content">
-                            <h5><a href="car-details.php">Compact</a></h5>
-                            <p>10 Cars Available</p>
+                            <h5><a href="bike-details.php">Kids</a></h5>
+                            <p>7 Bikes Available</p>
                         </div>
-                        <a href="car-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="bike-details.php" class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -388,7 +367,7 @@
                 <div class="row g-4">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="about-image">
-                            <img src="assets/img/about/01.png" alt="about-image">
+                            <img src="https://placehold.co/600x700/b9fbc0/333333?text=About+Whizwheels" alt="about-image">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -398,7 +377,7 @@
                                 <span class="wow fadeInUp" data-wow-delay=".2s">Get to know us</span>
                                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                     Trusted & Leading in
-                                    Car Rent Services
+                                    Bike Rental Services
                                 </h2>
                             </div>
                             <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".6s">
@@ -410,19 +389,19 @@
                                     <ul>
                                         <li>
                                             <i class="fa-solid fa-arrow-right"></i>
-                                            Nsectetur cing elit
+                                            Wide Range of Quality Bikes
                                         </li>
                                         <li>
                                             <i class="fa-solid fa-arrow-right"></i>
-                                            Suspe ndisse suscit sagittis leo
+                                            Competitive Pricing & Offers
                                         </li>
                                         <li>
                                             <i class="fa-solid fa-arrow-right"></i>
-                                            If you are going to use pasage
+                                            Easy Online Booking System
                                         </li>
                                         <li>
                                             <i class="fa-solid fa-arrow-right"></i>
-                                            Generators on the to repeatY
+                                            Friendly Customer Support
                                         </li>
                                     </ul>
                                     <a href="about.php" class="theme-btn">Discover More</a>
@@ -432,7 +411,7 @@
                                         <i class="fa-solid fa-phone"></i>
                                     </div>
                                     <p>Need help? Talk to an <br> Expert</p>
-                                    <h6><a href="tel:9288009850">+92 (8800) - 9850</a></h6>
+                                    <h6><a href="tel:+919876543210">+91 98765 43210</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -442,14 +421,14 @@
         </div>
     </section>
 
-    <!-- Car Rentals Section Start -->
+    <!-- Bike Rentals Section Start -->
     <section class="car-rentals-section-2 section-padding fix">
         <div class="container">
             <div class="section-title text-center">
                 <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                <span class="wow fadeInUp" data-wow-delay=".2s">Checkout our new cars</span>
+                <span class="wow fadeInUp" data-wow-delay=".2s">Checkout our new bikes</span>
                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                    Cars We’re Offering <br>
+                    Bikes We’re Offering <br>
                     for Rentals
                 </h2>
             </div>
@@ -463,7 +442,7 @@
                         <div class="swiper-slide">
                             <div class="car-rentals-items">
                                 <div class="car-image">
-                                    <img src="assets/img/car/01.jpg" alt="img">
+                                    <img src="https://placehold.co/600x400/9bf6ff/333333?text=Himalayan+Explorer" alt="img">
                                 </div>
                                 <div class="car-content">
                                     <div class="post-cat">
@@ -474,34 +453,12 @@
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span>2 Reviews</span>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <span>5 Reviews</span>
                                     </div>
-                                    <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                                    <h6>$70.00 <span>/ Day</span></h6>
-                                    <div class="icon-items">
-                                        <ul>
-                                            <li>
-                                                <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                                6 Seats
-                                            </li>
-                                            <li>
-                                                <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                                2 Doors
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                                Automatic
-                                            </li>
-                                            <li>
-                                                <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                                Petrol
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                                    <h4><a href="bike-details.php">Himalayan Explorer</a></h4>
+                                    <h6>₹1500 <span>/ Day</span></h6>
+                                    <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">Book Now <i
                                             class="fa-solid fa-arrow-right ps-1"></i></a>
                                 </div>
                             </div>
@@ -509,7 +466,7 @@
                         <div class="swiper-slide">
                             <div class="car-rentals-items">
                                 <div class="car-image">
-                                    <img src="assets/img/car/02.jpg" alt="img">
+                                    <img src="https://placehold.co/600x400/caffbf/333333?text=City+Sprinter" alt="img">
                                 </div>
                                 <div class="car-content">
                                     <div class="post-cat">
@@ -521,33 +478,11 @@
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
-                                        <span>2 Reviews</span>
+                                        <span>8 Reviews</span>
                                     </div>
-                                    <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                                    <h6>$70.00 <span>/ Day</span></h6>
-                                    <div class="icon-items">
-                                        <ul>
-                                            <li>
-                                                <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                                6 Seats
-                                            </li>
-                                            <li>
-                                                <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                                2 Doors
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                                Automatic
-                                            </li>
-                                            <li>
-                                                <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                                Petrol
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                                    <h4><a href="bike-details.php">City Sprinter Road Bike</a></h4>
+                                    <h6>₹1800 <span>/ Day</span></h6>
+                                    <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">Book Now <i
                                             class="fa-solid fa-arrow-right ps-1"></i></a>
                                 </div>
                             </div>
@@ -555,7 +490,7 @@
                         <div class="swiper-slide">
                             <div class="car-rentals-items">
                                 <div class="car-image">
-                                    <img src="assets/img/car/03.jpg" alt="img">
+                                    <img src="https://placehold.co/600x400/a0c4ff/333333?text=Volt-Ryder" alt="img">
                                 </div>
                                 <div class="car-content">
                                     <div class="post-cat">
@@ -567,33 +502,11 @@
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
-                                        <span>2 Reviews</span>
+                                        <span>12 Reviews</span>
                                     </div>
-                                    <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                                    <h6>$70.00 <span>/ Day</span></h6>
-                                    <div class="icon-items">
-                                        <ul>
-                                            <li>
-                                                <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                                6 Seats
-                                            </li>
-                                            <li>
-                                                <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                                2 Doors
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                                Automatic
-                                            </li>
-                                            <li>
-                                                <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                                Petrol
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                                    <h4><a href="bike-details.php">Volt-Ryder Electric</a></h4>
+                                    <h6>₹2500 <span>/ Day</span></h6>
+                                    <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">Book Now <i
                                             class="fa-solid fa-arrow-right ps-1"></i></a>
                                 </div>
                             </div>
@@ -615,7 +528,7 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="how-works-items">
-                        <h6 class="title"><a href="car-details.php">Search</a></h6>
+                        <h6 class="title"><a href="bike-details.php">Search</a></h6>
                         <div class="icon-box">
                             <div class="icon">
                                 <img src="assets/img/how-work/icon-1.png" alt="img" class="icon-1">
@@ -623,13 +536,13 @@
                             </div>
                         </div>
                         <p>
-                            Aliquam viverra arcu. Donec aliquet blandit enim feugiat. Suspendisse id quam sed eros.
+                            Find the perfect bike for your trip by searching our wide selection of available models and locations.
                         </p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="how-works-items">
-                        <h6 class="title"><a href="car-details.php">Select</a></h6>
+                        <h6 class="title"><a href="bike-details.php">Select</a></h6>
                         <div class="icon-box">
                             <div class="icon">
                                 <img src="assets/img/how-work/icon-2.png" alt="img" class="icon-1">
@@ -637,13 +550,13 @@
                             </div>
                         </div>
                         <p>
-                            Aliquam viverra arcu. Donec aliquet blandit enim feugiat. Suspendisse id quam sed eros.
+                            Choose the bike that best suits your needs, from mountain bikes for trails to cruisers for city rides.
                         </p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="how-works-items">
-                        <h6 class="title"><a href="car-details.php">Book</a></h6>
+                        <h6 class="title"><a href="bike-details.php">Book</a></h6>
                         <div class="icon-box">
                             <div class="icon">
                                 <img src="assets/img/how-work/icon-3.png" alt="img" class="icon-1">
@@ -651,21 +564,20 @@
                             </div>
                         </div>
                         <p>
-                            Aliquam viverra arcu. Donec aliquet blandit enim feugiat. Suspendisse id quam sed eros.
+                            Complete your booking online in just a few clicks. It's fast, simple, and secure.
                         </p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                     <div class="how-works-items">
-                        <h6 class="title"><a href="car-details.php">Drive</a></h6>
+                        <h6 class="title"><a href="bike-details.php">Ride</a></h6>
                         <div class="icon-box">
                             <div class="icon">
-                                <img src="assets/img/how-work/icon-4.png" alt="img" class="icon-1">
-                                <img src="assets/img/how-work/icon-44.png" alt="img" class="icon-2">
+                                <i class="fa-solid fa-person-biking fa-3x"></i>
                             </div>
                         </div>
                         <p>
-                            Aliquam viverra arcu. Donec aliquet blandit enim feugiat. Suspendisse id quam sed eros.
+                            Pick up your bike from the chosen location and enjoy your ride. Adventure awaits!
                         </p>
                     </div>
                 </div>
@@ -680,7 +592,7 @@
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="rental-benefit-image">
-                            <img src="assets/img/big-stretch-left-image.jpg" alt="img">
+                            <img src="https://placehold.co/800x900/fde4cf/333333?text=Ride+with+Benefits" alt="img">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -689,8 +601,8 @@
                                 <img src="assets/img/sub-icon.png" alt="img" class="wow fadeInUp">
                                 <span class="wow fadeInUp" data-wow-delay=".2s">our benefits</span>
                                 <h2 class="text-white wow fadeInUp" data-wow-delay=".4s">
-                                    Why You Should Use
-                                    Remons Rental
+                                    Why You Should Ride
+                                    with Whizwheels
                                 </h2>
                             </div>
                             <p class="wow fadeInUp" data-wow-delay=".6s">
@@ -777,7 +689,7 @@
         </div>
     </div>
 
-    <!-- Car Sale Section Start -->
+    <!-- Bike Sale Section Start -->
     <section class="car-sale-section fix section-padding pt-0">
         <div class="container-fluid">
             <div class="car-sale-wrapper">
@@ -788,13 +700,13 @@
                     <img src="assets/img/bagde.png" alt="shape-img">
                 </div>
                 <div class="car-shape">
-                    <img src="assets/img/car.png" alt="img">
+                    <img src="https://placehold.co/600x400/fbf8cc/333333?text=Sale+Bike" alt="img">
                 </div>
                 <div class="car-sale-content">
-                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Sale 50% Off</h2>
-                    <h3 class="wow fadeInUp" data-wow-delay=".5s">on all rental cars for 1 month</h3>
-                    <a href="car-details.php" class="theme-btn bg-header wow fadeInUp" data-wow-delay=".7s">Book Your
-                        Car</a>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Sale 25% Off</h2>
+                    <h3 class="wow fadeInUp" data-wow-delay=".5s">on all bike rentals for 1 week</h3>
+                    <a href="bike-grid.php" class="theme-btn bg-header wow fadeInUp" data-wow-delay=".7s">Book Your
+                        Bike</a>
                 </div>
             </div>
         </div>
@@ -812,7 +724,7 @@
                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                 What They’re
                                 Talking About
-                                Remons
+                                Whizwheels
                             </h2>
                         </div>
                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".6s">
@@ -841,7 +753,7 @@
                                                 </div>
                                                 <div class="name-job">
                                                     <h5 class="name">
-                                                        Jessica Brown
+                                                        Arjun Sharma
                                                     </h5>
                                                     <div class="separator">.</div>
                                                     <span class="job">Customer</span>
@@ -865,31 +777,7 @@
                                                 </div>
                                                 <div class="name-job">
                                                     <h5 class="name">
-                                                        Jessica Brown
-                                                    </h5>
-                                                    <div class="separator">.</div>
-                                                    <span class="job">Customer</span>
-                                                </div>
-                                                <div class="triangle">
-                                                    <div class="inner-triangle"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="client-info-items">
-                                            <p>
-                                                This is due to their excellent service, competitive pricing and customer
-                                                support. It’s throughly refresing to get such a personal touch. Duis
-                                                aute irure dolor in reprehenderit in voluptate velit esse cillum.
-                                            </p>
-                                            <div class="info">
-                                                <div class="icon">
-                                                    <img src="assets/img/quote.png" alt="img">
-                                                </div>
-                                                <div class="name-job">
-                                                    <h5 class="name">
-                                                        Jessica Brown
+                                                        Priya Patel
                                                     </h5>
                                                     <div class="separator">.</div>
                                                     <span class="job">Customer</span>
@@ -912,39 +800,39 @@
         </div>
     </section>
 
-    <!-- Car Slider Section Start -->
+    <!-- Bike Slider Section Start -->
     <div class="car-slider-section section-padding pt-0">
         <div class="car-slider-wrapper">
             <div class="swiper car-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="car-slider-image">
-                            <img src="assets/img/car-slider/01.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/a2d2ff/333333?text=Bike+1" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="car-slider-image">
-                            <img src="assets/img/car-slider/02.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/ffafcc/333333?text=Bike+2" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="car-slider-image">
-                            <img src="assets/img/car-slider/03.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/caffbf/333333?text=Bike+3" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="car-slider-image">
-                            <img src="assets/img/car-slider/04.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/ffd6a5/333333?text=Bike+4" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="car-slider-image">
-                            <img src="assets/img/car-slider/05.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/ffadad/333333?text=Bike+5" alt="img">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="car-slider-image">
-                            <img src="assets/img/car-slider/06.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/9bf6ff/333333?text=Bike+6" alt="img">
                         </div>
                     </div>
                 </div>
@@ -963,7 +851,7 @@
                             <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                         </a>
                     </div>
-                    <h4 class="text-white">Save big with our cheap car rental</h4>
+                    <h4 class="text-white">Save big with our affordable bike rentals</h4>
                 </div>
                 <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
                     .5s">

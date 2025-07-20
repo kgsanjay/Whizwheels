@@ -1,9 +1,9 @@
 <?php
-$headTitle = 'Remons';
+$headTitle = 'About Us';
 $img = 'assets/img/bg-header-banner.jpg';
-$Title = 'Home';
+$Title = 'About Us';
 $Title2 = 'About Us';
-$SubTitle = 'About us';
+$SubTitle = 'About';
 ?>
 
 <?php include './partials/layouts/layoutsTop.php' ?>
@@ -17,7 +17,7 @@ $SubTitle = 'About us';
             <div class="row g-4">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="about-image">
-                        <img src="assets/img/about/01.png" alt="about-image">
+                        <img src="https://placehold.co/600x700/a2d2ff/333333?text=Whizwheels+Bikes" alt="about-image">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -27,31 +27,30 @@ $SubTitle = 'About us';
                             <span class="wow fadeInUp" data-wow-delay=".2s">Get to know us</span>
                             <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                 Trusted & Leading in
-                                Car Rent Services
+                                Bike Rent Services
                             </h2>
                         </div>
                         <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".6s">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised.
+                            At Whizwheels Honnavara, we are passionate about providing the best biking experience along the beautiful Konkan coast. Whether you want to explore the serene beaches, ride to the majestic waterfalls, or just cruise through town, we have the perfect bike for you.
                         </p>
                         <div class="about-list-wrapper">
                             <div class="about-list-items wow fadeInUp" data-wow-delay=".3s">
                                 <ul>
                                     <li>
                                         <i class="fa-solid fa-arrow-right"></i>
-                                        Nsectetur cing elit
+                                        Wide Range of Quality Bikes
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-arrow-right"></i>
-                                        Suspe ndisse suscit sagittis leo
+                                        Competitive Pricing & Offers
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-arrow-right"></i>
-                                        If you are going to use pasage
+                                        Easy Online Booking System
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-arrow-right"></i>
-                                        Generators on the to repeatY
+                                        Friendly Customer Support
                                     </li>
                                 </ul>
                                 <a href="about.php" class="theme-btn">Discover More</a>
@@ -60,8 +59,8 @@ $SubTitle = 'About us';
                                 <div class="icon">
                                     <i class="fa-solid fa-phone"></i>
                                 </div>
-                                <p>Need help? Talk to an <br> Expert</p>
-                                <h6><a href="tel:9288009850">+92 (8800) - 9850</a></h6>
+                                <p>Need help? Talk to our <br> Bike Expert</p>
+                                <h6><a href="tel:+919876543210">+91 98765 43210</a></h6>
                             </div>
                         </div>
                     </div>
@@ -159,7 +158,7 @@ $SubTitle = 'About us';
                         <span class="wow fadeInUp" data-wow-delay=".2s">fun facts</span>
                         <h2 class="text-white wow fadeInUp" data-wow-delay=".4s">
                             Save Time & Money <br>
-                            with Top Car Rent <br>
+                            with Top Bike Rent <br>
                             Services
                         </h2>
                     </div>
@@ -168,12 +167,12 @@ $SubTitle = 'About us';
                     <div class="funfact-counter-area">
                         <div class="funfact-items wow fadeInUp" data-wow-delay=".3s">
                             <div class="icon">
-                                <img src="assets/img/icon/car.png" alt="img">
+                                <i class="fa-solid fa-bicycle fa-2x text-white"></i>
                             </div>
-                            <h2><span class="count">990</span></h2>
+                            <h2><span class="count">1500</span></h2>
                             <p>
-                                Cars <br>
-                                rentouts
+                                Bikes <br>
+                                Rented
                             </p>
                         </div>
                         <div class="funfact-items wow fadeInUp" data-wow-delay=".5s">
@@ -190,7 +189,7 @@ $SubTitle = 'About us';
                             <div class="icon">
                                 <img src="assets/img/icon/like.png" alt="img">
                             </div>
-                            <h2><span class="count">660</span></h2>
+                            <h2><span class="count">950</span></h2>
                             <p>
                                 happy <br>
                                 customers
@@ -215,11 +214,11 @@ $SubTitle = 'About us';
                 <span class="wow fadeInUp" data-wow-delay=".2s">our testimonials</span>
                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
                     What They’re Talking <br>
-                    About Remons
+                    About Whizwheels
                 </h2>
             </div>
             <p class="wow fadeInUp" data-wow-delay=".5s">
-                Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse suscipit <br> sagitis leo sit.
+                See what our happy riders have to say about their experience with our bike rentals in Honnavara.
             </p>
         </div>
         <div class="swiper testimonial-slider">
@@ -232,8 +231,7 @@ $SubTitle = 'About us';
                                     <i class="fa-solid fa-quote-left"></i>
                                 </div>
                                 <p>
-                                    I was very impresed by the remons service lorem ipsum is simply free text used by
-                                    copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                    I was very impressed by the Whizwheels service. The bike was in great condition and the booking process was seamless. Highly recommend for exploring Honnavara!
                                 </p>
                                 <div class="star">
                                     <i class="fa-solid fa-star"></i>
@@ -249,7 +247,7 @@ $SubTitle = 'About us';
                                 style="background-image: url('assets/img/testimonial/client-1.png');"></div>
                             <div class="content">
                                 <h5>
-                                    Jessica Brown
+                                    Arjun Sharma
                                 </h5>
                                 <span>Customer</span>
                             </div>
@@ -264,8 +262,7 @@ $SubTitle = 'About us';
                                     <i class="fa-solid fa-quote-left"></i>
                                 </div>
                                 <p>
-                                    I was very impresed by the remons service lorem ipsum is simply free text used by
-                                    copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                    Excellent service and very competitive pricing. The team was very helpful in suggesting the best routes around the beaches. A must-try experience!
                                 </p>
                                 <div class="star">
                                     <i class="fa-solid fa-star"></i>
@@ -281,7 +278,7 @@ $SubTitle = 'About us';
                                 style="background-image: url('assets/img/testimonial/client-2.png');"></div>
                             <div class="content">
                                 <h5>
-                                    Kevin Martin
+                                    Priya Patel
                                 </h5>
                                 <span>Customer</span>
                             </div>
@@ -296,8 +293,7 @@ $SubTitle = 'About us';
                                     <i class="fa-solid fa-quote-left"></i>
                                 </div>
                                 <p>
-                                    I was very impresed by the remons service lorem ipsum is simply free text used by
-                                    copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                    Renting an electric bike was the best decision! It made exploring the hilly areas so much easier. The bike was top-notch. Thank you, Whizwheels!
                                 </p>
                                 <div class="star">
                                     <i class="fa-solid fa-star"></i>
@@ -313,7 +309,7 @@ $SubTitle = 'About us';
                                 style="background-image: url('assets/img/testimonial/client-3.png');"></div>
                             <div class="content">
                                 <h5>
-                                    Jessica Brown
+                                    Aarav Singh
                                 </h5>
                                 <span>Customer</span>
                             </div>
@@ -325,7 +321,7 @@ $SubTitle = 'About us';
     </div>
 </section>
 
-<!-- Car Sale Section Start -->
+<!-- Bike Sale Section Start -->
 <section class="car-sale-section fix section-padding pt-0">
     <div class="container-fluid">
         <div class="car-sale-wrapper">
@@ -336,13 +332,13 @@ $SubTitle = 'About us';
                 <img src="assets/img/bagde.png" alt="shape-img">
             </div>
             <div class="car-shape">
-                <img src="assets/img/car.png" alt="img">
+                <img src="https://placehold.co/600x400/ffadad/333333?text=Awesome+Bike" alt="img">
             </div>
             <div class="car-sale-content">
-                <h2 class="wow fadeInUp" data-wow-delay=".3s">Sale 50% Off</h2>
-                <h3 class="wow fadeInUp" data-wow-delay=".5s">on all rental cars for 1 month</h3>
-                <a href="car-details.php" class="theme-btn bg-header wow fadeInUp" data-wow-delay=".7s">Book Your
-                    Car</a>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Sale 25% Off</h2>
+                <h3 class="wow fadeInUp" data-wow-delay=".5s">on all bike rentals for 1 week</h3>
+                <a href="bike-grid.php" class="theme-btn bg-header wow fadeInUp" data-wow-delay=".7s">Book Your
+                    Bike</a>
             </div>
         </div>
     </div>
@@ -403,7 +399,7 @@ $SubTitle = 'About us';
                         <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                     </a>
                 </div>
-                <h4 class="text-white">Save big with our cheap car rental</h4>
+                <h4 class="text-white">Save big with our affordable bike rentals</h4>
             </div>
             <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
                     .5s">

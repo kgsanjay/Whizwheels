@@ -1,27 +1,4 @@
-/*-----------------------------------------------------------------
 
-Template Name: Remons - Booking Rental HTML Template<
-Author: Pixydrops
-Author URI: https://themeforest.net/user/pixydrops/portfolio
-Version: 1.0.0
-Description: Remons - Booking Rental HTML Template<
-
--------------------------------------------------------------------
-Js TABLE OF CONTENTS
--------------------------------------------------------------------
-
-01. header
-02. animated text with swiper slider
-03. magnificPopup
-04. counter up 
-05. wow animation
-06. nice select
-07. swiper slider
-08. search popup
-09. preloader
-10. Gsap
-
-------------------------------------------------------------------*/
 
 (function($) {
     "use strict";

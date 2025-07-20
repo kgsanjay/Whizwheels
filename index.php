@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php $headTitle = 'Remons'; ?>
+<?php $headTitle = 'Whizwheels - Bike Rental'; ?>
 <?php include './partials/head.php' ?>
 
 <body>
@@ -30,7 +30,7 @@
         <div class="swiper hero-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/hero-1.jpg');">
+                    <div class="hero-image bg-cover" style="background-image: url('https://placehold.co/1920x1080/a2d2ff/333333?text=Awesome+Bike+Trails');">
                         <div class="overlay-shape">
                             <img src="assets/img/hero/overlay.png" alt="img">
                         </div>
@@ -40,10 +40,10 @@
                             <div class="col-xl-12">
                                 <div class="hero-content text-center">
                                     <h4 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                        Book Any Luxury Car in low price
+                                        Rent Your Dream Bike Today
                                     </h4>
                                     <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                        Car <span>Rental</span>
+                                        Bike <span>Rental</span>
                                     </h1>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/hero-2.jpg');">
+                    <div class="hero-image bg-cover" style="background-image: url('https://placehold.co/1920x1080/ffafcc/333333?text=Explore+Honnavara');">
                         <div class="overlay-shape">
                             <img src="assets/img/hero/overlay.png" alt="img">
                         </div>
@@ -61,10 +61,10 @@
                             <div class="col-xl-12">
                                 <div class="hero-content text-center">
                                     <h4 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                        Book Any Luxury Car in low price
+                                        Book Any Bike at a Low Price
                                     </h4>
                                     <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                        Car <span>Rental</span>
+                                        Ride in <span>Style</span>
                                     </h1>
                                 </div>
                             </div>
@@ -83,21 +83,11 @@
                     <label class="field-label">Pick-up Location</label>
                     <div class="category-oneadjust">
                         <select name="cate" class="category">
-                            <option value="1">
-                                Select Location
-                            </option>
-                            <option value="1">
-                                Houston
-                            </option>
-                            <option value="1">
-                                Texas
-                            </option>
-                            <option value="1">
-                                New York
-                            </option>
-                            <option value="1">
-                                Other Location
-                            </option>
+                            <option value="1">Select Location</option>
+                            <option value="2">Apsarakonda Falls</option>
+                            <option value="3">Murudeshwar Beach</option>
+                            <option value="4">Kasarkod Beach</option>
+                            <option value="5">Sharavathi Mangrove Boardwalk</option>
                         </select>
                     </div>
                 </div>
@@ -111,36 +101,26 @@
                 <div class="pickup-items">
                     <label class="field-label">Dropoff Date</label>
                     <div id="datepicker2" class="input-group date" data-date-format="dd-mm-yyyy">
-                        <input class="form-control" type="text" placeholder="Check in" readonly>
+                        <input class="form-control" type="text" placeholder="Check out" readonly>
                         <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                     </div>
                 </div>
                 <div class="pickup-items">
-                    <label class="field-label">Car Type</label>
+                    <label class="field-label">Bike Type</label>
                     <div class="category-oneadjust">
                         <select name="cate" class="category">
-                            <option value="1">
-                                cars
-                            </option>
-                            <option value="1">
-                                sedan
-                            </option>
-                            <option value="1">
-                                sports
-                            </option>
-                            <option value="1">
-                                jeep
-                            </option>
-                            <option value="1">
-                                limousine
-                            </option>
+                            <option value="1">All Bikes</option>
+                            <option value="2">Mountain Bike</option>
+                            <option value="3">Road Bike</option>
+                            <option value="4">Cruiser</option>
+                            <option value="5">Electric Bike</option>
                         </select>
                     </div>
                 </div>
                 <div class="pickup-items">
                     <label class="field-label style-2">button</label>
                     <button class="pickup-btn" type="submit">
-                        Find a Car
+                        Find a Bike
                     </button>
                 </div>
             </div>
@@ -153,32 +133,32 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="brand-image">
-                                <img src="assets/img/brand/01.png" alt="img">
+                                <img src="assets/img/brand/01.png" alt="brand-img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image">
-                                <img src="assets/img/brand/02.png" alt="img">
+                                <img src="assets/img/brand/02.png" alt="brand-img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image">
-                                <img src="assets/img/brand/03.png" alt="img">
+                                <img src="assets/img/brand/03.png" alt="brand-img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image">
-                                <img src="assets/img/brand/04.png" alt="img">
+                                <img src="assets/img/brand/04.png" alt="brand-img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image">
-                                <img src="assets/img/brand/05.png" alt="img">
+                                <img src="assets/img/brand/05.png" alt="brand-img">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="brand-image">
-                                <img src="assets/img/brand/06.png" alt="img">
+                                <img src="assets/img/brand/06.png" alt="brand-img">
                             </div>
                         </div>
                     </div>
@@ -194,8 +174,8 @@
                 <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
                 <span class="wow fadeInUp" data-wow-delay=".2s">our benefits</span>
                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                    Why You Should Use <br>
-                    Remons Rental
+                    Why You Should Ride <br>
+                    With Whizwheels
                 </h2>
             </div>
             <div class="row">
@@ -209,7 +189,7 @@
                         </div>
                         <div class="feature-content">
                             <h4>
-                                <a href="car-details.php">
+                                <a href="bike-details.php">
                                     Easier & <br>
                                     Faster Bookings
                                 </a>
@@ -220,7 +200,7 @@
                             </div>
                         </div>
                         <div class="feature-button">
-                            <a href="car-details.php" class="link-btn">View More <i
+                            <a href="bike-details.php" class="link-btn">View More <i
                                     class="fa-solid fa-arrow-right ps-1"></i></a>
                         </div>
                     </div>
@@ -235,7 +215,7 @@
                         </div>
                         <div class="feature-content">
                             <h4>
-                                <a href="car-details.php">
+                                <a href="bike-details.php">
                                     Too Many <br>
                                     Pickup Locations
                                 </a>
@@ -246,7 +226,7 @@
                             </div>
                         </div>
                         <div class="feature-button">
-                            <a href="car-details.php" class="link-btn">View More <i
+                            <a href="bike-details.php" class="link-btn">View More <i
                                     class="fa-solid fa-arrow-right ps-1"></i></a>
                         </div>
                     </div>
@@ -261,7 +241,7 @@
                         </div>
                         <div class="feature-content">
                             <h4>
-                                <a href="car-details.php">
+                                <a href="bike-details.php">
                                     Customers <br>
                                     100% Satisfied
                                 </a>
@@ -272,7 +252,7 @@
                             </div>
                         </div>
                         <div class="feature-button">
-                            <a href="car-details.php" class="link-btn">View More <i
+                            <a href="bike-details.php" class="link-btn">View More <i
                                     class="fa-solid fa-arrow-right ps-1"></i></a>
                         </div>
                     </div>
@@ -292,20 +272,20 @@
                                 <img src="assets/img/about/secondary-shape-color-full.png" alt="shape-img">
                             </div>
                             <div class="car-shape wow fadeInUp" data-wow-delay=".7s">
-                                <img src="assets/img/about/car-shape.png" alt="shape-img">
+                                <img src="https://placehold.co/400x300/cddafd/333333?text=Ride+Free" alt="shape-img">
                             </div>
                             <div class="counter-content wow fadeInLeft" data-wow-delay=".4s">
-                                <h2 class="text-white"><span class="count">50</span></h2>
+                                <h2 class="text-white"><span class="count">10</span></h2>
                                 <p class="text-white">
                                     Years of <br>
                                     Experience
                                 </p>
                             </div>
                             <div class="about-image-1 wow fadeInDown" data-wow-delay=".3s">
-                                <img src="assets/img/about/01.jpg" alt="about-image">
+                                <img src="https://placehold.co/400x500/a2d2ff/333333?text=Mountain+Biking" alt="about-image">
                             </div>
                             <div class="about-image-2 wow fadeInLeft" data-wow-delay=".5s">
-                                <img src="assets/img/about/02.jpg" alt="about-image">
+                                <img src="https://placehold.co/300x400/ffafcc/333333?text=City+Rides" alt="about-image">
                             </div>
                         </div>
                     </div>
@@ -316,11 +296,11 @@
                                 <span class="wow fadeInUp" data-wow-delay=".2s">Get to know us</span>
                                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
                                     Services with a Wide
-                                    Range of Cars
+                                    Range of Bikes
                                 </h2>
                             </div>
                             <h4 class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".3s">
-                                committed to providing our customers with exceptional service.
+                                Committed to providing our customers with exceptional service.
                             </h4>
                             <p class="wow fadeInUp" data-wow-delay=".5s">
                                 Lorem ipsum is simply ipun txns mane so dummy text of free available in market the
@@ -337,10 +317,10 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        Many Pickup Locations
+                                        24/7 Customer Support
                                     </li>
                                     <li>
-                                        Offering Low Prices
+                                        Well-Maintained Bikes
                                     </li>
                                 </ul>
                             </div>
@@ -352,14 +332,14 @@
         </div>
     </section>
 
-    <!-- Car Rentals Section Start -->
+    <!-- Bike Rentals Section Start -->
     <section class="car-rentals-section section-padding fix">
         <div class="container">
             <div class="section-title text-center">
                 <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                <span class="wow fadeInUp" data-wow-delay=".2s">Checkout our new cars</span>
+                <span class="wow fadeInUp" data-wow-delay=".2s">Checkout our new bikes</span>
                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                    Cars We’re Offering <br>
+                    Bikes We’re Offering <br>
                     for Rentals
                 </h2>
             </div>
@@ -374,7 +354,7 @@
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="assets/img/car/01.jpg" alt="img">
+                                <img src="https://placehold.co/600x400/fdffb6/333333?text=Mountain+Bike" alt="bike-img">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
@@ -385,34 +365,12 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <span>2 Reviews</span>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>5 Reviews</span>
                                 </div>
-                                <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
-                                <div class="icon-items">
-                                    <ul>
-                                        <li>
-                                            <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                            6 Seats
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                            2 Doors
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                                <h4><a href="bike-details.php">Mountain Explorer</a></h4>
+                                <h6>₹1500 <span>/ Day</span></h6>
+                                <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
                                         class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
@@ -420,7 +378,7 @@
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="assets/img/car/02.jpg" alt="img">
+                                <img src="https://placehold.co/600x400/caffbf/333333?text=Road+Bike" alt="bike-img">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
@@ -432,33 +390,11 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <span>2 Reviews</span>
+                                    <span>8 Reviews</span>
                                 </div>
-                                <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
-                                <div class="icon-items">
-                                    <ul>
-                                        <li>
-                                            <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                            6 Seats
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                            2 Doors
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                                <h4><a href="bike-details.php">Speed Demon Road Bike</a></h4>
+                                <h6>₹1800 <span>/ Day</span></h6>
+                                <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
                                         class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
@@ -466,45 +402,23 @@
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="assets/img/car/03.jpg" alt="img">
+                                <img src="https://placehold.co/600x400/9bf6ff/333333?text=City+Cruiser" alt="bike-img">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
-                                    2024 Model
+                                    2023 Model
                                 </div>
                                 <div class="star">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <span>2 Reviews</span>
+                                    <i class="fa-regular fa-star"></i>
+                                    <span>4 Reviews</span>
                                 </div>
-                                <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
-                                <div class="icon-items">
-                                    <ul>
-                                        <li>
-                                            <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                            6 Seats
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                            2 Doors
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                                <h4><a href="bike-details.php">Comfort Cruiser</a></h4>
+                                <h6>₹1200 <span>/ Day</span></h6>
+                                <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
                                         class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
@@ -512,7 +426,7 @@
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="assets/img/car/04.jpg" alt="img">
+                                <img src="https://placehold.co/600x400/a0c4ff/333333?text=Electric+Bike" alt="bike-img">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
@@ -524,33 +438,11 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <span>2 Reviews</span>
+                                    <span>12 Reviews</span>
                                 </div>
-                                <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                                <h6>$70.00 <span>/ Day</span></h6>
-                                <div class="icon-items">
-                                    <ul>
-                                        <li>
-                                            <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                            6 Seats
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                            2 Doors
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                            Automatic
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                            Petrol
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                                <h4><a href="bike-details.php">Electric Bolt</a></h4>
+                                <h6>₹2500 <span>/ Day</span></h6>
+                                <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
                                         class="fa-solid fa-arrow-right ps-1"></i></a>
                             </div>
                         </div>
@@ -560,7 +452,7 @@
         </div>
     </section>
 
-    <!-- Car Service Section Start -->
+    <!-- Bike Service Section Start -->
     <section class="car-service-section">
         <div class="container">
             <div class="car-service-wrapper">
@@ -570,26 +462,26 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="service-car-image">
-                            <img src="assets/img/decor-image-contact-home.jpg" alt="img">
+                            <img src="https://placehold.co/800x600/ffd6a5/333333?text=Premium+Bikes" alt="img">
                             <div class="color-shape">
                                 <img src="assets/img/car/secondary-shape-color.png" alt="shape-img">
                             </div>
                             <div class="booking-content">
                                 <p>Call for booking</p>
-                                <h3><a href="tel:9288009850">+92 (8800) - 9850</a></h3>
+                                <h3><a href="tel:+919876543210">+91 98765 43210</a></h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="service-car-content">
                             <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                Looking for a Luxury <br>
-                                Car Service?
+                                Looking for a Premium <br>
+                                Bike Rental?
                             </h2>
                             <h3 class="wow fadeInUp" data-wow-delay=".5s">
-                                <span>Starting at</span> <sup>$</sup> 398 <span class="text">/mo</span>
+                                <span>Starting at</span> <sup>₹</sup> 900 <span class="text">/day</span>
                             </h3>
-                            <a href="index.php" class="theme-btn wow fadeInUp" data-wow-delay=".7s">Discover More</a>
+                            <a href="bike-grid.php" class="theme-btn wow fadeInUp" data-wow-delay=".7s">Discover More</a>
                         </div>
                     </div>
                 </div>
@@ -609,7 +501,7 @@
                             <span class="wow fadeInUp" data-wow-delay=".2s">fun facts</span>
                             <h2 class="text-white wow fadeInUp" data-wow-delay=".4s">
                                 Save Time & Money <br>
-                                with Top Car Rent <br>
+                                with Top Bike Rent <br>
                                 Services
                             </h2>
                         </div>
@@ -618,12 +510,12 @@
                         <div class="funfact-counter-area">
                             <div class="funfact-items wow fadeInUp" data-wow-delay=".3s">
                                 <div class="icon">
-                                    <img src="assets/img/icon/car.png" alt="img">
+                                    <i class="fa-solid fa-bicycle fa-2x text-white"></i>
                                 </div>
-                                <h2><span class="count">990</span></h2>
+                                <h2><span class="count">1500</span></h2>
                                 <p>
-                                    Cars <br>
-                                    rentouts
+                                    Bikes <br>
+                                    Rented
                                 </p>
                             </div>
                             <div class="funfact-items wow fadeInUp" data-wow-delay=".5s">
@@ -640,7 +532,7 @@
                                 <div class="icon">
                                     <img src="assets/img/icon/like.png" alt="img">
                                 </div>
-                                <h2><span class="count">660</span></h2>
+                                <h2><span class="count">950</span></h2>
                                 <p>
                                     happy <br>
                                     customers
@@ -653,88 +545,88 @@
         </div>
     </section>
 
-    <!-- Popular Car Section Start -->
+    <!-- Popular Bike Section Start -->
     <section class="popular-car-section fix section-padding">
         <div class="container">
             <div class="section-title text-center">
                 <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                <span class="wow fadeInUp" data-wow-delay=".2s">select car types</span>
+                <span class="wow fadeInUp" data-wow-delay=".2s">select bike types</span>
                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
                     We’re Offering Popular <br>
-                    Cars Models
+                    Bike Models
                 </h2>
             </div>
             <div class="row g-4 mt-30">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="car-details.php">Sedan</a></h4>
+                            <h4><a href="bike-details.php">Mountain Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="assets/img/car/popular-car-1.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/ffadad/333333?text=Mountain+Bikes" alt="img">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="car-details.php">Sports</a></h4>
+                            <h4><a href="bike-details.php">Road Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="assets/img/car/popular-car-2.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/ffd6a5/333333?text=Road+Bikes" alt="img">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="car-details.php">Jeep</a></h4>
+                            <h4><a href="bike-details.php">Cruiser Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="assets/img/car/popular-car-3.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/fdffb6/333333?text=Cruiser+Bikes" alt="img">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="car-details.php">SUV</a></h4>
+                            <h4><a href="bike-details.php">Hybrid Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="assets/img/car/popular-car-4.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/caffbf/333333?text=Hybrid+Bikes" alt="img">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="car-details.php">Luxury</a></h4>
+                            <h4><a href="bike-details.php">Electric Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="assets/img/car/popular-car-5.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/9bf6ff/333333?text=Electric+Bikes" alt="img">
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="car-details.php">Luxury</a></h4>
+                            <h4><a href="bike-details.php">Kids Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="assets/img/car/popular-car-6.jpg" alt="img">
+                            <img src="https://placehold.co/600x400/a0c4ff/333333?text=Kids+Bikes" alt="img">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="popular-car-text wow fadeInUp" data-wow-delay=".4s">
-                <h6>Car rental services specifically for our customers.</h6>
-                <a href="car-details.php" class="theme-btn">Find a car</a>
+                <h6>Bike rental services specifically for our customers.</h6>
+                <a href="bike-grid.php" class="theme-btn">Find a Bike</a>
             </div>
         </div>
     </section>
@@ -751,7 +643,7 @@
                     <span class="wow fadeInUp" data-wow-delay=".2s">our testimonials</span>
                     <h2 class="wow fadeInUp" data-wow-delay=".4s">
                         What They’re Talking <br>
-                        About Remons
+                        About Whizwheels
                     </h2>
                 </div>
                 <p class="wow fadeInUp" data-wow-delay=".5s">
@@ -768,7 +660,7 @@
                                         <i class="fa-solid fa-quote-left"></i>
                                     </div>
                                     <p>
-                                        I was very impresed by the remons service lorem ipsum is simply free text used
+                                        I was very impresed by the Whizwheels service lorem ipsum is simply free text used
                                         by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
                                     </p>
                                     <div class="star">
@@ -800,7 +692,7 @@
                                         <i class="fa-solid fa-quote-left"></i>
                                     </div>
                                     <p>
-                                        I was very impresed by the remons service lorem ipsum is simply free text used
+                                        I was very impresed by the Whizwheels service lorem ipsum is simply free text used
                                         by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
                                     </p>
                                     <div class="star">
@@ -832,7 +724,7 @@
                                         <i class="fa-solid fa-quote-left"></i>
                                     </div>
                                     <p>
-                                        I was very impresed by the remons service lorem ipsum is simply free text used
+                                        I was very impresed by the Whizwheels service lorem ipsum is simply free text used
                                         by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
                                     </p>
                                     <div class="star">
@@ -871,9 +763,9 @@
                             <div class="row g-4">
                                 <div class="col-md-12">
                                     <div class="gallery-image">
-                                        <img src="assets/img/gallery/g-1.jpg" alt="img">
+                                        <img src="https://placehold.co/300x300/fbf8cc/333333?text=Bike+Gallery+1" alt="img">
                                         <div class="icon-box">
-                                            <a href="assets/img/gallery/g-1.jpg" class="icon img-popup-2">
+                                            <a href="https://placehold.co/800x800/fbf8cc/333333?text=Bike+Gallery+1" class="icon img-popup-2">
                                                 <i class="fa-solid fa-plus"></i>
                                             </a>
                                         </div>
@@ -883,9 +775,9 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="gallery-image">
-                                        <img src="assets/img/gallery/g-2.jpg" alt="img">
+                                        <img src="https://placehold.co/300x300/fde4cf/333333?text=Bike+Gallery+2" alt="img">
                                         <div class="icon-box">
-                                            <a href="assets/img/gallery/g-2.jpg" class="icon img-popup-2">
+                                            <a href="https://placehold.co/800x800/fde4cf/333333?text=Bike+Gallery+2" class="icon img-popup-2">
                                                 <i class="fa-solid fa-plus"></i>
                                             </a>
                                         </div>
@@ -897,9 +789,9 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="gallery-image">
-                                <img src="assets/img/gallery/g-3.jpg" alt="img">
+                                <img src="https://placehold.co/300x625/ffcfd2/333333?text=Bike+Gallery+3" alt="img">
                                 <div class="icon-box">
-                                    <a href="assets/img/gallery/g-3.jpg" class="icon img-popup-2 style-two">
+                                    <a href="https://placehold.co/800x1200/ffcfd2/333333?text=Bike+Gallery+3" class="icon img-popup-2 style-two">
                                         <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
@@ -913,9 +805,9 @@
                     <div class="row g-4">
                         <div class="col-md-4 col-sm-6">
                             <div class="gallery-image">
-                                <img src="assets/img/gallery/g-4.jpg" alt="img">
+                                <img src="https://placehold.co/300x300/f1c0e8/333333?text=Bike+Gallery+4" alt="img">
                                 <div class="icon-box">
-                                    <a href="assets/img/gallery/g-4.jpg" class="icon img-popup-2">
+                                    <a href="https://placehold.co/800x800/f1c0e8/333333?text=Bike+Gallery+4" class="icon img-popup-2">
                                         <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
@@ -925,9 +817,9 @@
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="gallery-image">
-                                <img src="assets/img/gallery/g-5.jpg" alt="img">
+                                <img src="https://placehold.co/300x300/cfbaf0/333333?text=Bike+Gallery+5" alt="img">
                                 <div class="icon-box">
-                                    <a href="assets/img/gallery/g-5.jpg" class="icon img-popup-2">
+                                    <a href="https://placehold.co/800x800/cfbaf0/333333?text=Bike+Gallery+5" class="icon img-popup-2">
                                         <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
@@ -937,9 +829,9 @@
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="gallery-image">
-                                <img src="assets/img/gallery/g-6.jpg" alt="img">
+                                <img src="https://placehold.co/300x300/a3c4f3/333333?text=Bike+Gallery+6" alt="img">
                                 <div class="icon-box">
-                                    <a href="assets/img/gallery/g-6.jpg" class="icon img-popup-2">
+                                    <a href="https://placehold.co/800x800/a3c4f3/333333?text=Bike+Gallery+6" class="icon img-popup-2">
                                         <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
@@ -949,9 +841,9 @@
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="gallery-image">
-                                <img src="assets/img/gallery/g-7.jpg" alt="img">
+                                <img src="https://placehold.co/300x300/90dbf4/333333?text=Bike+Gallery+7" alt="img">
                                 <div class="icon-box">
-                                    <a href="assets/img/gallery/g-7.jpg" class="icon img-popup-2">
+                                    <a href="https://placehold.co/800x800/90dbf4/333333?text=Bike+Gallery+7" class="icon img-popup-2">
                                         <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
@@ -961,9 +853,9 @@
                         </div>
                         <div class="col-md-8">
                             <div class="gallery-image">
-                                <img src="assets/img/gallery/g-8.jpg" alt="img">
+                                <img src="https://placehold.co/625x300/8eecf5/333333?text=Bike+Gallery+8" alt="img">
                                 <div class="icon-box">
-                                    <a href="assets/img/gallery/g-8.jpg" class="icon img-popup-2">
+                                    <a href="https://placehold.co/1200x800/8eecf5/333333?text=Bike+Gallery+8" class="icon img-popup-2">
                                         <i class="fa-solid fa-plus"></i>
                                     </a>
                                 </div>
@@ -975,9 +867,9 @@
                 </div>
                 <div class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="gallery-image style-2">
-                        <img src="assets/img/gallery/g-9.jpg" alt="img">
+                        <img src="https://placehold.co/300x625/98f5e1/333333?text=Bike+Gallery+9" alt="img">
                         <div class="icon-box">
-                            <a href="assets/img/gallery/g-9.jpg" class="icon img-popup-2 style-two">
+                            <a href="https://placehold.co/800x1200/98f5e1/333333?text=Bike+Gallery+9" class="icon img-popup-2 style-two">
                                 <i class="fa-solid fa-plus"></i>
                             </a>
                         </div>
@@ -1004,7 +896,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="news-card-items">
                         <div class="news-image">
-                            <img src="assets/img/news/01.jpg" alt="news-img">
+                            <img src="https://placehold.co/600x400/b9fbc0/333333?text=Blog+Post+1" alt="news-img">
                             <div class="post-date">
                                 <h6>
                                     20 <br>
@@ -1018,7 +910,7 @@
                             </div>
                             <div class="news-cont">
                                 <span>by Mike Hardson</span>
-                                <h3><a href="news-details.php">The best fastest and most powerful road car</a></h3>
+                                <h3><a href="news-details.php">Top 5 Scenic Biking Trails to Explore This Summer</a></h3>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
                             </div>
                             <ul>
@@ -1039,7 +931,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="news-card-items">
                         <div class="news-image">
-                            <img src="assets/img/news/02.jpg" alt="news-img">
+                            <img src="https://placehold.co/600x400/90dbf4/333333?text=Blog+Post+2" alt="news-img">
                             <div class="post-date">
                                 <h6>
                                     26 <br>
@@ -1052,14 +944,14 @@
                                 <img src="assets/img/news/client.png" alt="img">
                             </div>
                             <div class="news-cont">
-                                <span>by Mike Hardson</span>
-                                <h3><a href="news-details.php">The best fastest and most powerful road car</a></h3>
+                                <span>by Sarah Green</span>
+                                <h3><a href="news-details.php">A Guide to Choosing the Perfect Rental Bike</a></h3>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
                             </div>
                             <ul>
                                 <li>
                                     <i class="fa-solid fa-comments"></i>
-                                    2 Comments
+                                    5 Comments
                                 </li>
                                 <li>
                                     <a href="news-details.php">
@@ -1074,7 +966,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="news-card-items">
                         <div class="news-image">
-                            <img src="assets/img/news/03.jpg" alt="news-img">
+                            <img src="https://placehold.co/600x400/f1c0e8/333333?text=Blog+Post+3" alt="news-img">
                             <div class="post-date">
                                 <h6>
                                     29 <br>
@@ -1087,14 +979,14 @@
                                 <img src="assets/img/news/client.png" alt="img">
                             </div>
                             <div class="news-cont">
-                                <span>by Mike Hardson</span>
-                                <h3><a href="news-details.php">The best fastest and most powerful road car</a></h3>
+                                <span>by Alex Johnson</span>
+                                <h3><a href="news-details.php">Benefits of City Biking for Health and Environment</a></h3>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
                             </div>
                             <ul>
                                 <li>
                                     <i class="fa-solid fa-comments"></i>
-                                    2 Comments
+                                    8 Comments
                                 </li>
                                 <li>
                                     <a href="news-details.php">
@@ -1117,8 +1009,8 @@
             <div class="row g-4 justify-content-between align-items-center">
                 <div class="col-lg-6">
                     <div class="cta-rental-items">
-                        <h4 class="wow fadeInUp" data-wow-delay=".3s">Faster, easier access to car rental services</h4>
-                        <h2 class="wow fadeInUp" data-wow-delay=".5s">Premium Car Rental</h2>
+                        <h4 class="wow fadeInUp" data-wow-delay=".3s">Faster, easier access to bike rental services</h4>
+                        <h2 class="wow fadeInUp" data-wow-delay=".5s">Premium Bike Rental</h2>
                         <div class="rental-app-button">
                             <a href="index.php" class="app-button-items wow fadeInUp" data-wow-delay=".7s">
                                 <span class="button-icon"><i class="fa-solid fa-play"></i></span>
@@ -1157,7 +1049,7 @@
                             <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                         </a>
                     </div>
-                    <h4 class="text-white">Save big with our cheap car rental</h4>
+                    <h4 class="text-white">Save big with our cheap bike rental</h4>
                 </div>
                 <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
                     .5s">

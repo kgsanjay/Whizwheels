@@ -1,5 +1,5 @@
 <?php
-$headTitle = 'Remons';
+$headTitle = 'FAQs';
 $img = 'assets/img/bg-header-banner.jpg';
 $Title = 'Home';
 $Title2 = 'Faqs';
@@ -17,7 +17,7 @@ $SubTitle = 'Faqs';
                 <div class="faq-sidebar">
                     <div class="search-widget">
                         <form action="#">
-                            <input type="text" placeholder="Search">
+                            <input type="text" placeholder="Search FAQs">
                             <button type="submit"><i class="fa-regular fa-magnifying-glass"></i></button>
                         </form>
                     </div>
@@ -31,7 +31,7 @@ $SubTitle = 'Faqs';
                         </div>
                         <div class="content">
                             <p>Call Anytime</p>
-                            <h6><a href="tel:+923076806860">+ 92 ( 307 ) 68 - 06860</a></h6>
+                            <h6><a href="tel:+919876543210">+91 98765 43210</a></h6>
                         </div>
                     </div>
                 </div>
@@ -50,30 +50,26 @@ $SubTitle = 'Faqs';
                             <div class="accordion-item mb-4 wow fadeInUp" data-wow-delay=".3s">
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                        How to process the funtion for construction?
+                                        data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                        What documents are required to rent a bike?
                                     </button>
                                 </h5>
                                 <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t look
-                                        even as slightly believable now.
+                                        You will need a valid driving license, and a copy of your Aadhaar card or Passport for identification purposes. For international visitors, a valid passport and international driving permit are required.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-4 wow fadeInUp" data-wow-delay=".5s">
                                 <h5 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                        Where should I incorporate my business?
+                                        data-bs-target="#faq2" aria-expanded="true" aria-controls="faq2">
+                                        Is a helmet provided with the rental?
                                     </button>
                                 </h5>
                                 <div id="faq2" class="accordion-collapse show" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t look
-                                        even as slightly believable now.
+                                        Yes, we provide one helmet with each bike rental, as wearing one is mandatory for your safety and by law. If you need an additional helmet for a pillion rider, it can be provided for a small extra charge.
                                     </div>
                                 </div>
                             </div>
@@ -81,29 +77,25 @@ $SubTitle = 'Faqs';
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                                        How there are many variations of passages
+                                        Is there a security deposit for renting a bike?
                                     </button>
                                 </h5>
                                 <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t look
-                                        even as slightly believable now.
+                                        Yes, a refundable security deposit is required at the time of pickup. The amount varies depending on the bike model. The deposit will be returned to you in full after the bike is returned in its original condition.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-4 wow fadeInUp" data-wow-delay=".3s">
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq4" aria-expanded="true" aria-controls="faq4">
-                                        How to process the funtion for construction?
+                                        data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                        What should I do in case of a breakdown?
                                     </button>
                                 </h5>
                                 <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t look
-                                        even as slightly believable now.
+                                        In the unlikely event of a breakdown, please contact our support number immediately. We provide 24/7 roadside assistance within Mysuru city limits and will arrange for a mechanic or a replacement bike as soon as possible.
                                     </div>
                                 </div>
                             </div>
@@ -111,44 +103,12 @@ $SubTitle = 'Faqs';
                                 <h5 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
-                                        How to process the funtion for construction?
+                                        Can I take the rental bike outside of Mysuru?
                                     </button>
                                 </h5>
                                 <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                     <div class="accordion-body">
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t look
-                                        even as slightly believable now.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item wow mb-4 fadeInUp" data-wow-delay=".7s">
-                                <h5 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
-                                        How there are many variations of passages
-                                    </button>
-                                </h5>
-                                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t look
-                                        even as slightly believable now.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mb wow fadeInUp" data-wow-delay=".3s">
-                                <h5 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq7" aria-expanded="true" aria-controls="faq7">
-                                        How to process the funtion for construction?
-                                    </button>
-                                </h5>
-                                <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        There are many variations of passages of available but the have suffered
-                                        alteration in that some form by injected randomised words which don’t look
-                                        even as slightly believable now.
+                                        Yes, you can take the bike for outstation trips, but you must inform us at the time of booking. There might be different rental charges and a limit on the number of kilometers for outstation travel.
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +131,7 @@ $SubTitle = 'Faqs';
                         <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                     </a>
                 </div>
-                <h4 class="text-white">Save big with our cheap car rental</h4>
+                <h4 class="text-white">Save big with our affordable bike rentals</h4>
             </div>
             <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
                     .5s">
