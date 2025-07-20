@@ -1,5 +1,3 @@
-
-
 <!-- Header Section Start -->
 <header id="header-sticky" class="header-1">
     <div class="container-fluid">
@@ -15,22 +13,14 @@
                         <div class="main-menu">
                             <nav id="mobile-menu">
                                 <ul>
-                                    <li class="has-dropdown active menu-thumb">
-                                        <a href="index.php">
-                                            Home
-                                            <i class="fas fa-angle-down"></i>
-                                        </a>
-                                        <ul class="submenu">
-                                            <li><a href="index.php">Home 01</a></li>
-                                            <li><a href="index-2.php">Home 02</a></li>
-                                            <li><a href="index-3.php">Home 03</a></li>
-                                        </ul>
+                                    <li class="active">
+                                        <a href="index.php">Home</a>
                                     </li>
                                     <li>
                                         <a href="about.php">About Us</a>
                                     </li>
                                     <li class="has-dropdown">
-                                        <a href="news.php">
+                                        <a href="#">
                                             Pages
                                             <i class="fas fa-angle-down"></i>
                                         </a>
@@ -39,19 +29,18 @@
                                             <li><a href="faq.php">Faq's</a></li>
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href="program-details.php">
-                                            Cars
+                                    <li class="has-dropdown">
+                                        <a href="bike-grid.php">
+                                            Bikes
                                             <i class="fas fa-angle-down"></i>
                                         </a>
                                         <ul class="submenu">
-                                            <li><a href="car-grid.php">Car Grid</a></li>
-                                            <li><a href="car-list.php">Car List</a></li>
-                                            <li><a href="car-list-sidebar.php">Car Sidebar</a></li>
-                                            <li><a href="car-details.php">Car Details</a></li>
+                                            <li><a href="bike-grid.php">Bike Grid</a></li>
+                                            <li><a href="bike-list.php">Bike List</a></li>
+                                            <li><a href="bike-details.php">Bike Details</a></li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <li class="has-dropdown">
                                         <a href="news.php">
                                             Blog
                                             <i class="fas fa-angle-down"></i>
@@ -76,13 +65,13 @@
                         </div>
                         <div class="content">
                             <p>Call Anytime</p>
-                            <h6><a href="tel:+9288009850">+92 (8800) - 9850</a></h6>
+                            <h6><a href="tel:1234567890">+1 (23) 456 7890</a></h6>
                         </div>
                     </div>
                     <a href="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></a>
                     <div class="header-button">
-                        <a href="car-details.php" class="header-btn">
-                            Find a Car
+                        <a href="bike-grid.php" class="header-btn">
+                            Find a Bike
                         </a>
                     </div>
                     <div class="header__hamburger d-xl-none my-auto">

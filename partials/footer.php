@@ -10,17 +10,16 @@
                         </div>
                         <div class="footer-content">
                             <p>
-                                66 Road Broklyn Golden Street, 600
-                                New York, USA
+                                Honnavara, Karnataka, <br> India
                             </p>
                             <ul class="contact-info">
                                 <li>
                                     <i class="fa-regular fa-envelope"></i>
-                                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                    <a href="mailto:contact@whizwheels.bike">contact@whizwheels.bike</a>
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-phone-volume"></i>
-                                    <a href="tel:926668880000">+92 (666) 888 0000</a>
+                                    <a href="tel:+919876543210">+91 98765 43210</a>
                                 </li>
                             </ul>
                         </div>
@@ -29,7 +28,7 @@
                 <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
-                            <h4>Contact</h4>
+                            <h4>Quick Links</h4>
                         </div>
                         <ul class="list-items">
                             <li>
@@ -38,12 +37,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="car-details.php">
-                                    New Cars
+                                <a href="bike-grid.php">
+                                    Our Bikes
                                 </a>
                             </li>
                             <li>
-                                <a href="news-details.php">
+                                <a href="news.php">
                                     Latest News
                                 </a>
                             </li>
@@ -69,24 +68,24 @@
                             <div class="gallery-wrap">
                                 <div class="gallery-item">
                                     <div class="thumb">
-                                        <a href="assets/img/footer/gallery-1.jpg" class="img-popup">
-                                            <img src="assets/img/footer/gallery-1.jpg" alt="gallery-img">
+                                        <a href="https://placehold.co/150x150/a2d2ff/333333?text=Bike+1" class="img-popup">
+                                            <img src="https://placehold.co/150x150/a2d2ff/333333?text=Bike+1" alt="gallery-img">
                                             <div class="icon">
                                                 <i class="far fa-plus"></i>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="thumb">
-                                        <a href="assets/img/footer/gallery-2.jpg" class="img-popup">
-                                            <img src="assets/img/footer/gallery-2.jpg" alt="gallery-img">
+                                        <a href="https://placehold.co/150x150/ffafcc/333333?text=Bike+2" class="img-popup">
+                                            <img src="https://placehold.co/150x150/ffafcc/333333?text=Bike+2" alt="gallery-img">
                                             <div class="icon">
                                                 <i class="far fa-plus"></i>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="thumb">
-                                        <a href="assets/img/footer/gallery-3.jpg" class="img-popup">
-                                            <img src="assets/img/footer/gallery-3.jpg" alt="gallery-img">
+                                        <a href="https://placehold.co/150x150/caffbf/333333?text=Bike+3" class="img-popup">
+                                            <img src="https://placehold.co/150x150/caffbf/333333?text=Bike+3" alt="gallery-img">
                                             <div class="icon">
                                                 <i class="far fa-plus"></i>
                                             </div>
@@ -95,24 +94,24 @@
                                 </div>
                                 <div class="gallery-item">
                                     <div class="thumb">
-                                        <a href="assets/img/footer/gallery-4.jpg" class="img-popup">
-                                            <img src="assets/img/footer/gallery-4.jpg" alt="gallery-img">
+                                        <a href="https://placehold.co/150x150/ffd6a5/333333?text=Bike+4" class="img-popup">
+                                            <img src="https://placehold.co/150x150/ffd6a5/333333?text=Bike+4" alt="gallery-img">
                                             <div class="icon">
                                                 <i class="far fa-plus"></i>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="thumb">
-                                        <a href="assets/img/footer/gallery-5.jpg" class="img-popup">
-                                            <img src="assets/img/footer/gallery-5.jpg" alt="gallery-img">
+                                        <a href="https://placehold.co/150x150/ffadad/333333?text=Bike+5" class="img-popup">
+                                            <img src="https://placehold.co/150x150/ffadad/333333?text=Bike+5" alt="gallery-img">
                                             <div class="icon">
                                                 <i class="far fa-plus"></i>
                                             </div>
                                         </a>
                                     </div>
                                     <div class="thumb">
-                                        <a href="assets/img/footer/gallery-6.jpg" class="img-popup">
-                                            <img src="assets/img/footer/gallery-6.jpg" alt="gallery-img">
+                                        <a href="https://placehold.co/150x150/9bf6ff/333333?text=Bike+6" class="img-popup">
+                                            <img src="https://placehold.co/150x150/9bf6ff/333333?text=Bike+6" alt="gallery-img">
                                             <div class="icon">
                                                 <i class="far fa-plus"></i>
                                             </div>
@@ -131,7 +130,7 @@
                         <div class="footer-content">
                             <p>Subscribe our newsletter to get our latest update & news</p>
                             <div class="footer-input">
-                                <input type="email" id="email2" placeholder="Email address">
+                                <input type="email" id="email3" placeholder="Email address">
                                 <button class="newsletter-btn" type="submit">
                                     <i class="fa-regular fa-paper-plane"></i>
                                 </button>
@@ -144,7 +143,7 @@
         <div class="footer-bottom">
             <div class="footer-wrapper">
                 <p class="wow fadeInUp" data-wow-delay=".4s">
-                    © Copyright 2024 by <a href="index.php">Remons.com</a>
+                    © Copyright 2024 by <a href="index.php">Whizwheels.bike</a>
                 </p>
             </div>
         </div>

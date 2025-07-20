@@ -1,9 +1,9 @@
 <?php
-$headTitle = 'Remons';
+$headTitle = 'Blog Details';
 $img = 'assets/img/bg-header-banner.jpg';
 $Title = 'Home';
-$Title2 = 'blog details';
-$SubTitle = 'blog details';
+$Title2 = 'Blog';
+$SubTitle = 'Blog Details';
 ?>
 
 <?php include './partials/layouts/layoutsTop.php' ?>
@@ -18,7 +18,7 @@ $SubTitle = 'blog details';
                 <div class="col-lg-8">
                     <div class="news-details-items">
                         <div class="news-image">
-                            <img src="assets/img/news/news-details.jpg" alt="news-img">
+                            <img src="https://placehold.co/800x500/a2d2ff/333333?text=Apsarakonda+Trail" alt="news-img">
                         </div>
                         <div class="news-details-content">
                             <ul class="list-admin">
@@ -34,35 +34,23 @@ $SubTitle = 'blog details';
                                     2 Comments
                                 </li>
                             </ul>
-                            <h3>The best fastest and most powerful road car</h3>
+                            <h3>Exploring the Serene Trails to Apsarakonda Falls</h3>
                             <p class="mt-3">
-                                Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum. There are many
-                                variations of passages of Lorem Ipsum available, but the majority have alteration in
-                                some injected or words which don't look even slightly believable. If you are going
-                                to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrang
-                                hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to
-                                repeat predefined chunks as necessary, making this the first true generator on the
-                                Internet. It uses a dictionary of over 200 Latin words, combined with a handful of
-                                model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                                Discovering the hidden gems of Honnavara on two wheels is an experience like no other. One of the most rewarding journeys you can undertake is the ride to the magnificent Apsarakonda Falls. The trail offers a perfect blend of moderate challenge and breathtaking scenery, making it a must-do for any cycling enthusiast visiting the region.
                             </p>
                             <p class="mt-4">
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                an unknown printer took a galley of type and scrambled it to make a type simen book.
-                                It has survived not only five centuries, but also the leap into electronic
-                                typesetting.
+                                The route takes you through lush green paddy fields and quaint local villages, giving you a glimpse into the serene coastal life of Karnataka. As you get closer to the falls, the path becomes more adventurous with gentle climbs and descents. We recommend our 'Himalayan Explorer' mountain bike for this trail, as its sturdy frame and excellent suspension make for a comfortable and safe ride.
                             </p>
                             <p class="mt-4">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. orem
-                                Ipsum has been the industry's standard dummy text ever since the when an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book.
+                                Upon reaching Apsarakonda, you are greeted by the spectacular sight of the waterfall cascading down into a natural pool. It's the perfect spot to take a refreshing break, dip your feet in the cool water, and soak in the tranquility of nature before heading back. Remember to pack some water and snacks for the journey!
                             </p>
                         </div>
                     </div>
                     <div class="tag-share-wrap mt-4 mb-4">
                         <div class="tagcloud">
                             <span>Tags</span>
-                            <a href="news-details.php">Off Road</a>
-                            <a href="news-details.php">Luxury</a>
+                            <a href="news-details.php">Biking</a>
+                            <a href="news-details.php">Honnavara</a>
                         </div>
                         <div class="social-share d-flex align-items-center">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -75,20 +63,20 @@ $SubTitle = 'blog details';
                         <div class="col-lg-6">
                             <div class="news-rental-servce-items">
                                 <h4>
-                                    Looking for the best car rental service
+                                    Looking for the best bike rental service?
                                 </h4>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="news-rental-servce-items style-2">
                                 <h4>
-                                    Looking for the best car rental service
+                                    Your adventure on two wheels starts here!
                                 </h4>
                             </div>
                         </div>
                     </div>
                     <div class="comment-reviews">
-                        <h3>2 Reviews</h3>
+                        <h3>2 Comments</h3>
                         <div class="single-comment d-flex gap-4 pb-5">
                             <div class="image">
                                 <img src="assets/img/car/comment01.png" alt="image">
@@ -96,14 +84,12 @@ $SubTitle = 'blog details';
                             <div class="content">
                                 <div class="head d-flex flex-wrap gap-3 align-items-center justify-content-between">
                                     <div class="con">
-                                        <h4>Kevin Martin</h4>
+                                        <h4>Arjun Sharma</h4>
                                     </div>
                                     <a href="news-details.php" class="reply">Reply</a>
                                 </div>
                                 <p class="mt-4">
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting simply fee text aunchanged. It was popularised in the sheets
-                                    containing lorem ipsum is simply free text.
+                                    Thanks for this guide! I rented a bike from Whizwheels last weekend and did this trail. It was absolutely amazing. The bike was in perfect condition.
                                 </p>
                             </div>
                         </div>
@@ -114,14 +100,12 @@ $SubTitle = 'blog details';
                             <div class="content">
                                 <div class="head d-flex flex-wrap gap-3 align-items-center justify-content-between">
                                     <div class="con">
-                                        <h4>Sarah Albert</h4>
+                                        <h4>Priya Patel</h4>
                                     </div>
                                     <a href="news-details.php" class="reply">Reply</a>
                                 </div>
                                 <p class="mt-4">
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting simply fee text aunchanged. It was popularised in the sheets
-                                    containing lorem ipsum is simply free text.
+                                    I was looking for something to do in Honnavara and this looks perfect. Will be booking a bike soon!
                                 </p>
                             </div>
                         </div>
@@ -169,57 +153,54 @@ $SubTitle = 'blog details';
                             <div class="recent-post-area">
                                 <div class="recent-items">
                                     <div class="recent-thumb">
-                                        <img src="assets/img/news/pp1.jpg" alt="img">
+                                        <img src="https://placehold.co/100x100/ffadad/333333?text=Bike+Safety" alt="img">
                                     </div>
                                     <div class="recent-content">
                                         <ul>
                                             <li>
                                                 <i class="fa-solid fa-comments"></i>
-                                                2 Comments
+                                                5 Comments
                                             </li>
                                         </ul>
                                         <h6>
                                             <a href="news-details.php">
-                                                Hassle-free Rental
-                                                Experience
+                                                Essential Safety Tips for Coastal Riding
                                             </a>
                                         </h6>
                                     </div>
                                 </div>
                                 <div class="recent-items">
                                     <div class="recent-thumb">
-                                        <img src="assets/img/news/pp2.jpg" alt="img">
+                                        <img src="https://placehold.co/100x100/ffd6a5/333333?text=Bike+Choice" alt="img">
                                     </div>
                                     <div class="recent-content">
                                         <ul>
                                             <li>
                                                 <i class="fa-solid fa-comments"></i>
-                                                2 Comments
+                                                3 Comments
                                             </li>
                                         </ul>
                                         <h6>
                                             <a href="news-details.php">
-                                                Hassle-free Rental
-                                                Experience
+                                                Which Bike is Right for You?
                                             </a>
                                         </h6>
                                     </div>
                                 </div>
                                 <div class="recent-items">
                                     <div class="recent-thumb">
-                                        <img src="assets/img/news/pp3.jpg" alt="img">
+                                        <img src="https://placehold.co/100x100/caffbf/333333?text=Murudeshwar" alt="img">
                                     </div>
                                     <div class="recent-content">
                                         <ul>
                                             <li>
                                                 <i class="fa-solid fa-comments"></i>
-                                                2 Comments
+                                                8 Comments
                                             </li>
                                         </ul>
                                         <h6>
                                             <a href="news-details.php">
-                                                Hassle-free Rental
-                                                Experience
+                                                A Day Trip to Murudeshwar by Bike
                                             </a>
                                         </h6>
                                     </div>
@@ -232,15 +213,15 @@ $SubTitle = 'blog details';
                             </div>
                             <div class="news-widget-categories">
                                 <ul>
-                                    <li><a href="news-details.php">Rental <i
+                                    <li><a href="news-details.php">Bike Trails <i
                                                 class="fa-solid fa-arrow-right-long"></i></a></li>
-                                    <li><a href="news-details.php">Luxury Cars <i
+                                    <li><a href="news-details.php">Travel Tips <i
                                                 class="fa-solid fa-arrow-right-long"></i></a></li>
-                                    <li class="active"><a href="news-details.php">Dream Cars <i
+                                    <li class="active"><a href="news-details.php">Honnavara <i
                                                 class="fa-solid fa-arrow-right-long"></i></a></li>
-                                    <li><a href="news-details.php">Dream Cars <i
+                                    <li><a href="news-details.php">Gear <i
                                                 class="fa-solid fa-arrow-right-long"></i></a></li>
-                                    <li><a href="news-details.php">Off Road <i
+                                    <li><a href="news-details.php">Electric Bikes <i
                                                 class="fa-solid fa-arrow-right-long"></i></a></li>
                                 </ul>
                             </div>
@@ -251,11 +232,11 @@ $SubTitle = 'blog details';
                             </div>
                             <div class="news-widget-categories">
                                 <div class="tagcloud">
-                                    <a href="news-standard.php">Off Road</a>
-                                    <a href="news-details.php">Luxury</a>
-                                    <a href="news-details.php">Cars</a>
-                                    <a href="news-details.php">Rentals</a>
-                                    <a href="news-details.php">Engine</a>
+                                    <a href="news-standard.php">Adventure</a>
+                                    <a href="news-details.php">Beach</a>
+                                    <a href="news-details.php">Coastal Ride</a>
+                                    <a href="news-details.php">Nature</a>
+                                    <a href="news-details.php">Explore</a>
                                 </div>
                             </div>
                         </div>
@@ -278,7 +259,7 @@ $SubTitle = 'blog details';
                         <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                     </a>
                 </div>
-                <h4 class="text-white">Save big with our cheap car rental</h4>
+                <h4 class="text-white">Save big with our affordable bike rentals</h4>
             </div>
             <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
                     .5s">

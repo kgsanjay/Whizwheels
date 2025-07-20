@@ -1,9 +1,9 @@
 <?php
-$headTitle = 'Remons';
+$headTitle = 'Contact Us';
 $img = 'assets/img/bg-header-banner.jpg';
 $Title = 'Home';
 $Title2 = 'Contact';
-$SubTitle = 'Contact';
+$SubTitle = 'Contact Us';
 ?>
 
 <?php include './partials/layouts/layoutsTop.php' ?>
@@ -42,12 +42,12 @@ $SubTitle = 'Contact';
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-clt">
-                                        <input type="text" name="phone" id="phone" placeholder="Phone">
+                                        <input type="text" name="phone" id="phone" placeholder="Phone Number">
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-clt">
-                                        <textarea name="message" id="message" placeholder="Write a Comment"></textarea>
+                                        <textarea name="message" id="message" placeholder="Write a Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -62,15 +62,15 @@ $SubTitle = 'Contact';
                 <div class="col-lg-3">
                     <div class="contact-right-items">
                         <div class="contact-img">
-                            <img src="assets/img/contact.jpg" alt="img">
+                            <img src="https://placehold.co/400x300/cddafd/333333?text=Contact+Us" alt="img">
                         </div>
                         <div class="icon-items">
                             <div class="icon">
                                 <img src="assets/img/question.png" alt="img">
                             </div>
                             <div class="content">
-                                <p>Have Question?</p>
-                                <h6><a href="tel:+923076806860">+ 92 ( 307 ) 68 - 06860</a></h6>
+                                <p>Have a Question?</p>
+                                <h6><a href="tel:+919876543210">+91 98765 43210</a></h6>
                             </div>
                         </div>
                         <div class="icon-items">
@@ -79,7 +79,7 @@ $SubTitle = 'Contact';
                             </div>
                             <div class="content">
                                 <p>Write Email</p>
-                                <h6><a href="mailto:info@example.com" class="link">info@example.com</a></h6>
+                                <h6><a href="mailto:contact@whizwheels.bike" class="link">contact@whizwheels.bike</a></h6>
                             </div>
                         </div>
                         <div class="icon-items">
@@ -89,8 +89,7 @@ $SubTitle = 'Contact';
                             <div class="content">
                                 <p>Visit Office</p>
                                 <h6>
-                                    24 Valentin, Street Road <br>
-                                    New York
+                                    Honnavara, Karnataka, India
                                 </h6>
                             </div>
                         </div>
@@ -112,7 +111,7 @@ $SubTitle = 'Contact';
     <div class="map-items">
         <div class="googpemap">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62367.25183353807!2d76.60933272167968!3d12.310539000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf70381d572ef9%3A0x2b89ece8c0f8396d!2sMysuru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1678886523521!5m2!1sen!2sin"
                 style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
@@ -130,7 +129,7 @@ $SubTitle = 'Contact';
                         <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                     </a>
                 </div>
-                <h4 class="text-white">Save big with our cheap car rental</h4>
+                <h4 class="text-white">Save big with our affordable bike rentals</h4>
             </div>
             <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
                     .5s">

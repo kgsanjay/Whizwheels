@@ -4,9 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="pixydrops">
-    <meta name="description" content="Remons - Booking Rental HTML Template">
+    <meta name="description" content="Whizwheels - Your one-stop shop for bike rentals. Explore the city on two wheels with our wide range of bikes.">
     <!-- ======== Page title ============ -->
-    <title> <?php echo $headTitle ?> - Booking Rental HTML Template</title>
+    <title><?php echo $headTitle ?> | Ride with Freedom feel the wind</title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <!--<< Bootstrap min.css >>-->

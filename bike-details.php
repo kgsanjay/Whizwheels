@@ -1,15 +1,15 @@
 <?php
-$headTitle = 'Remons';
+$headTitle = 'Bike Details';
 $img = 'assets/img/bg-header-banner.jpg';
-$Title = 'Home';
-$Title2 = 'Cars';
-$SubTitle = 'Single Car';
+$Title = 'Bikes';
+$Title2 = 'Bike Details';
+$SubTitle = 'Single Bike';
 ?>
 
 <?php include './partials/layouts/layoutsTop.php' ?>
 
 
-<!-- Car Details Section Start -->
+<!-- Bike Details Section Start -->
 <section class="car-details fix section-padding">
     <div class="container">
         <div class="car-details-wrapper">
@@ -17,7 +17,7 @@ $SubTitle = 'Single Car';
                 <div class="col-lg-8">
                     <div class="car-details-items">
                         <div class="car-image">
-                            <img src="assets/img/car/car-details.jpg" alt="img">
+                            <img src="https://placehold.co/800x600/9bf6ff/333333?text=Himalayan+Explorer" alt="img">
                         </div>
                         <div class="car-content">
                             <div class="star">
@@ -25,128 +25,95 @@ $SubTitle = 'Single Car';
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <span>2 Reviews</span>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>5 Reviews</span>
                             </div>
-                            <h3>Hyundai Accent Limited</h3>
-                            <h6>$70.00 <span>/ Day</span></h6>
+                            <h3>Himalayan Explorer</h3>
+                            <h6>₹1500 <span>/ Day</span></h6>
                             <p class="mt-4 mb-4">
-                                To deliver on the promise of technology and human We help our clients become sions of
-                                themselves. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                orem ipsum has been the industry’s standard dummy text ever since the 1500s.
+                                Experience the thrill of adventure and freedom. We help our riders explore new trails and create lasting memories. This bike is perfect for both rugged mountain paths and scenic city routes around Mysuru.
                             </p>
                             <div class="icon-details-area">
                                 <h4>Key Features</h4>
                                 <div class="icon-details-main-items">
                                     <div class="icon-items">
                                         <div class="icon">
-                                            <img src="assets/img/car/icon/07.png" alt="img">
+                                            <i class="fa-solid fa-bicycle"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>body:</h6>
-                                            <p>Sedan</p>
+                                            <h6>Bike Type:</h6>
+                                            <p>Mountain</p>
                                         </div>
                                     </div>
                                     <div class="icon-items">
                                         <div class="icon">
-                                            <img src="assets/img/car/icon/07.png" alt="img">
+                                            <i class="fa-solid fa-ruler-combined"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Mileage:</h6>
-                                            <p>70.000 (Mi)</p>
+                                            <h6>Frame Size:</h6>
+                                            <p>Medium (18")</p>
                                         </div>
                                     </div>
                                     <div class="icon-items">
                                         <div class="icon">
-                                            <img src="assets/img/car/icon/07.png" alt="img">
+                                            <i class="fa-solid fa-cog"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Year:</h6>
-                                            <p>2024</p>
+                                            <h6>Gears:</h6>
+                                            <p>21 Speed</p>
                                         </div>
                                     </div>
                                     <div class="icon-items">
                                         <div class="icon">
-                                            <img src="assets/img/car/icon/07.png" alt="img">
+                                            <i class="fa-solid fa-weight-hanging"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Engine:</h6>
-                                            <p>2500 cc</p>
+                                            <h6>Weight:</h6>
+                                            <p>12 kg</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="icon-details-main-items">
                                     <div class="icon-items">
                                         <div class="icon">
-                                            <img src="assets/img/car/door.svg" alt="img">
+                                            <i class="fa-solid fa-circle-dot"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Passengers:</h6>
-                                            <p>6 Seats</p>
+                                            <h6>Wheel Size:</h6>
+                                            <p>29 inches</p>
                                         </div>
                                     </div>
                                     <div class="icon-items">
                                         <div class="icon">
-                                            <img src="assets/img/car/seat.svg" alt="img">
+                                            <i class="fa-solid fa-bolt"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Gear:</h6>
-                                            <p>Automatic</p>
+                                            <h6>Brakes:</h6>
+                                            <p>Disc Brakes</p>
                                         </div>
                                     </div>
                                     <div class="icon-items">
                                         <div class="icon">
-                                            <img src="assets/img/car/automatic.svg" alt="img">
+                                            <i class="fa-solid fa-person-biking"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Gear:</h6>
-                                            <p>Automatic</p>
+                                            <h6>Suspension:</h6>
+                                            <p>Front</p>
                                         </div>
                                     </div>
                                     <div class="icon-items">
                                         <div class="icon">
-                                            <img src="assets/img/car/petrol.svg" alt="img">
+                                            <i class="fa-solid fa-palette"></i>
                                         </div>
                                         <div class="content">
-                                            <h6>Fuel:</h6>
-                                            <p>Petrol</p>
+                                            <h6>Color:</h6>
+                                            <p>Blue</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="price-table-area">
-                                <h6>Table Price <span>( by day of the week )</span></h6>
-                                <div class="price-table-items section-bg">
-                                    <p>Monday</p>
-                                    <p>$70.00</p>
-                                </div>
-                                <div class="price-table-items">
-                                    <p>Tuesday</p>
-                                    <p>$70.00</p>
-                                </div>
-                                <div class="price-table-items section-bg">
-                                    <p>Wednesday</p>
-                                    <p>$70.00</p>
-                                </div>
-                                <div class="price-table-items">
-                                    <p>Thursday</p>
-                                    <p>$70.00</p>
-                                </div>
-                                <div class="price-table-items section-bg">
-                                    <p>Friday</p>
-                                    <p>$70.00</p>
-                                </div>
-                                <div class="price-table-items">
-                                    <p>Saturday</p>
-                                    <p>$70.00</p>
-                                </div>
-                                <div class="price-table-items section-bg">
-                                    <p>Sunday</p>
-                                    <p>$70.00</p>
-                                </div>
-                            </div>
-                            <div class="car-video">
-                                <img src="assets/img/car/car-details-2.jpg" alt="img">
+                            <div class="car-video mt-5">
+                                <img src="https://placehold.co/800x450/caffbf/333333?text=Bike+in+Action!" alt="img">
                                 <div class="video-box">
                                     <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
                                         class="video-btn ripple video-popup">
@@ -165,70 +132,39 @@ $SubTitle = 'Single Car';
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="form-clt">
-                                        <label class="label-text">Your Name</label>
-                                        <input type="text" name="name" id="name" placeholder="Afzaal Islam">
+                                        <label class="label-text">Full Name</label>
+                                        <input type="text" name="name" id="name" placeholder="Full Name">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-clt">
                                         <label class="label-text">Email</label>
-                                        <input type="text" name="email" id="email" placeholder="pixydrops@gmail.com">
+                                        <input type="email" name="email" id="email" placeholder="your-email@example.com">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-clt">
                                         <label class="label-text">Phone Number</label>
-                                        <input type="text" name="phone" id="phone" placeholder="+ 00 0000 - 000">
+                                        <input type="text" name="phone" id="phone" placeholder="+91 98765 43210">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-clt">
                                         <label class="label-text">Address</label>
-                                        <input type="text" name="address" id="address" placeholder="Address">
+                                        <input type="text" name="address" id="address" placeholder="Delivery Address">
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-clt">
                                         <label class="label-text">Pick-up Location</label>
                                         <div class="category-oneadjust">
-                                            <select name="cate" class="category" style="display: none;">
-                                                <option value="1">
-                                                    Select Location
-                                                </option>
-                                                <option value="1">
-                                                    Houston
-                                                </option>
-                                                <option value="1">
-                                                    Texas
-                                                </option>
-                                                <option value="1">
-                                                    New York
-                                                </option>
-                                                <option value="1">
-                                                    Other Location
-                                                </option>
+                                            <select name="cate" class="category">
+                                                <option value="1">Select Location</option>
+                                                <option value="2">Mysore Palace</option>
+                                                <option value="3">Brindavan Gardens</option>
+                                                <option value="4">KRS Backwaters</option>
+                                                <option value="5">Other Location</option>
                                             </select>
-                                            <div class="nice-select category" tabindex="0"><span class="current">
-                                                    Select Location
-                                                </span>
-                                                <ul class="list">
-                                                    <li data-value="1" class="option selected">
-                                                        Select Location
-                                                    </li>
-                                                    <li data-value="1" class="option">
-                                                        Houston
-                                                    </li>
-                                                    <li data-value="1" class="option">
-                                                        Texas
-                                                    </li>
-                                                    <li data-value="1" class="option">
-                                                        New York
-                                                    </li>
-                                                    <li data-value="1" class="option">
-                                                        Other Location
-                                                    </li>
-                                                </ul>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -237,8 +173,7 @@ $SubTitle = 'Single Car';
                                         <label class="label-text">Pick-up Date</label>
                                         <div id="datepicker3" class="input-group date" data-date-format="dd-mm-yyyy">
                                             <input class="form-control" type="text" placeholder="Check in" readonly>
-                                            <span class="input-group-addon"> <i
-                                                    class="fa-solid fa-calendar-days"></i></span>
+                                            <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -246,9 +181,8 @@ $SubTitle = 'Single Car';
                                     <div class="form-clt">
                                         <label class="label-text">Drop-off Date</label>
                                         <div id="datepicker4" class="input-group date" data-date-format="dd-mm-yyyy">
-                                            <input class="form-control" type="text" placeholder="Check in" readonly>
-                                            <span class="input-group-addon"> <i
-                                                    class="fa-solid fa-calendar-days"></i></span>
+                                            <input class="form-control" type="text" placeholder="Check out" readonly>
+                                            <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -256,22 +190,20 @@ $SubTitle = 'Single Car';
                                     <div class="input-save-items-area">
                                         <div class="input-save-items">
                                             <div class="input-save d-flex align-items-center mb-3">
-                                                <input type="checkbox" class="form-check-input" name="save-for-next"
-                                                    id="saveForNext1">
-                                                <label for="saveForNext1">Driver</label>
+                                                <input type="checkbox" class="form-check-input" name="save-for-next" id="saveForNext1">
+                                                <label for="saveForNext1">Helmet</label>
                                             </div>
                                             <div class="input-save d-flex align-items-center">
-                                                <input type="checkbox" class="form-check-input" name="save-for-next"
-                                                    id="saveForNext2">
-                                                <label for="saveForNext2">Baby Seat</label>
+                                                <input type="checkbox" class="form-check-input" name="save-for-next" id="saveForNext2">
+                                                <label for="saveForNext2">Bike Lock</label>
                                             </div>
                                         </div>
                                         <div class="input-save-items">
                                             <div class="input-save d-flex align-items-center mb-3">
-                                                <label>$10.00 / Day</label>
+                                                <label>₹100 / Day</label>
                                             </div>
                                             <div class="input-save d-flex align-items-center">
-                                                <label>$30.00 / Total</label>
+                                                <label>₹50 / Day</label>
                                             </div>
                                         </div>
                                     </div>
@@ -293,7 +225,7 @@ $SubTitle = 'Single Car';
                             <div class="content">
                                 <div class="head d-flex flex-wrap gap-3 align-items-center justify-content-between">
                                     <div class="con">
-                                        <h4>Kevin Martin</h4>
+                                        <h4>Arjun Sharma</h4>
                                     </div>
                                     <div class="star">
                                         <i class="fa-solid fa-star"></i>
@@ -304,9 +236,7 @@ $SubTitle = 'Single Car';
                                     </div>
                                 </div>
                                 <p class="mt-4">
-                                    It has survived not only five centuries, but also the into electronic typesetting
-                                    simply fee text aunchanged. It was popularised in the sheets containing lorem ipsum
-                                    is simply free text.
+                                    Mast bike hai! It handled the Chamundi Hills trails perfectly. Booking process was super easy and the staff were very helpful. Will definitely rent from Whizwheels again!
                                 </p>
                             </div>
                         </div>
@@ -317,20 +247,18 @@ $SubTitle = 'Single Car';
                             <div class="content">
                                 <div class="head d-flex flex-wrap gap-3 align-items-center justify-content-between">
                                     <div class="con">
-                                        <h4>Sarah Albert</h4>
+                                        <h4>Priya Patel</h4>
                                     </div>
                                     <div class="star">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
                                     </div>
                                 </div>
                                 <p class="mt-4">
-                                    It has survived not only five centuries, but also the into electronic typesetting
-                                    simply fee text aunchanged. It was popularised in the sheets containing lorem ipsum
-                                    is simply free text.
+                                    The electric bike was a game-changer for exploring Mysuru. Smooth ride and the battery lasted all day. Highly recommended for a city tour.
                                 </p>
                             </div>
                         </div>
@@ -346,21 +274,10 @@ $SubTitle = 'Single Car';
                                         <label class="label-text">Pick-up Location</label>
                                         <div class="category-oneadjust">
                                             <select name="cate" class="category">
-                                                <option value="1">
-                                                    Select Location
-                                                </option>
-                                                <option value="1">
-                                                    Houston
-                                                </option>
-                                                <option value="1">
-                                                    Texas
-                                                </option>
-                                                <option value="1">
-                                                    New York
-                                                </option>
-                                                <option value="1">
-                                                    Other Location
-                                                </option>
+                                                <option value="1">Select Location</option>
+                                                <option value="2">Mysore Palace</option>
+                                                <option value="3">Brindavan Gardens</option>
+                                                <option value="4">KRS Backwaters</option>
                                             </select>
                                         </div>
                                     </div>
@@ -370,8 +287,7 @@ $SubTitle = 'Single Car';
                                         <label class="label-text">Pick-up Date</label>
                                         <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy">
                                             <input class="form-control" type="text" placeholder="Check in" readonly>
-                                            <span class="input-group-addon"> <i
-                                                    class="fa-solid fa-calendar-days"></i></span>
+                                            <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -379,9 +295,8 @@ $SubTitle = 'Single Car';
                                     <div class="form-clt">
                                         <label class="label-text">Drop-off Date</label>
                                         <div id="datepicker2" class="input-group date" data-date-format="dd-mm-yyyy">
-                                            <input class="form-control" type="text" placeholder="Check in" readonly>
-                                            <span class="input-group-addon"> <i
-                                                    class="fa-solid fa-calendar-days"></i></span>
+                                            <input class="form-control" type="text" placeholder="Check out" readonly>
+                                            <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                                         </div>
                                     </div>
                                 </div>
@@ -390,47 +305,35 @@ $SubTitle = 'Single Car';
                                         <label class="label-text">Quantity</label>
                                         <div class="category-oneadjust">
                                             <select name="cate" class="category">
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                                <option value="1">
-                                                    2
-                                                </option>
-                                                <option value="1">
-                                                    3
-                                                </option>
-                                                <option value="1">
-                                                    4
-                                                </option>
-                                                <option value="1">
-                                                    5
-                                                </option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
                                             </select>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-clt">
-                                        <label class="label-text">Resources</label>
+                                        <label class="label-text">Add-ons</label>
                                         <div class="input-save-items-area">
                                             <div class="input-save-items">
                                                 <div class="input-save d-flex align-items-center mb-3">
-                                                    <input type="checkbox" class="form-check-input" name="save-for-next"
-                                                        id="saveForNext3">
-                                                    <label for="saveForNext3">Driver</label>
+                                                    <input type="checkbox" class="form-check-input" name="save-for-next" id="saveForNext3">
+                                                    <label for="saveForNext3">Helmet</label>
                                                 </div>
                                                 <div class="input-save d-flex align-items-center">
-                                                    <input type="checkbox" class="form-check-input" name="save-for-next"
-                                                        id="saveForNext4">
-                                                    <label for="saveForNext4">Baby Seat</label>
+                                                    <input type="checkbox" class="form-check-input" name="save-for-next" id="saveForNext4">
+                                                    <label for="saveForNext4">Bike Lock</label>
                                                 </div>
                                             </div>
                                             <div class="input-save-items">
                                                 <div class="input-save d-flex align-items-center mb-3">
-                                                    <label>$10.00 / Day</label>
+                                                    <label>₹100 / Day</label>
                                                 </div>
                                                 <div class="input-save d-flex align-items-center">
-                                                    <label>$30.00 / Total</label>
+                                                    <label>₹50 / Day</label>
                                                 </div>
                                             </div>
                                         </div>
@@ -450,21 +353,21 @@ $SubTitle = 'Single Car';
     </div>
 </section>
 
-<!-- Car Rentals Section Start -->
+<!-- Similar Bikes Section Start -->
 <section class="car-rentals-section-2 section-padding fix pt-0">
     <div class="container">
         <div class="section-title text-center">
             <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-            <span class="wow fadeInUp" data-wow-delay=".2s">Checkout our new cars</span>
+            <span class="wow fadeInUp" data-wow-delay=".2s">Checkout our other bikes</span>
             <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                Similar Cars Available
+                Similar Bikes Available
             </h2>
         </div>
         <div class="row">
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="car-rentals-items">
                     <div class="car-image">
-                        <img src="assets/img/car/08.jpg" alt="img">
+                        <img src="https://placehold.co/600x400/caffbf/333333?text=City+Sprinter" alt="img">
                     </div>
                     <div class="car-content">
                         <div class="post-cat">
@@ -476,33 +379,11 @@ $SubTitle = 'Single Car';
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <span>2 Reviews</span>
+                            <span>8 Reviews</span>
                         </div>
-                        <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                        <h6>$70.00 <span>/ Day</span></h6>
-                        <div class="icon-items">
-                            <ul>
-                                <li>
-                                    <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                    6 Seats
-                                </li>
-                                <li>
-                                    <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                    2 Doors
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                    Automatic
-                                </li>
-                                <li>
-                                    <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                    Petrol
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                        <h4><a href="bike-details.php">City Sprinter Road Bike</a></h4>
+                        <h6>₹1800 <span>/ Day</span></h6>
+                        <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
                                 class="fa-solid fa-arrow-right ps-1"></i></a>
                     </div>
                 </div>
@@ -510,45 +391,23 @@ $SubTitle = 'Single Car';
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="car-rentals-items">
                     <div class="car-image">
-                        <img src="assets/img/car/09.jpg" alt="img">
+                        <img src="https://placehold.co/600x400/9bf6ff/333333?text=Royal+Cruiser" alt="img">
                     </div>
                     <div class="car-content">
                         <div class="post-cat">
-                            2024 Model
+                            2023 Model
                         </div>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <span>2 Reviews</span>
+                            <i class="fa-regular fa-star"></i>
+                            <span>4 Reviews</span>
                         </div>
-                        <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                        <h6>$70.00 <span>/ Day</span></h6>
-                        <div class="icon-items">
-                            <ul>
-                                <li>
-                                    <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                    6 Seats
-                                </li>
-                                <li>
-                                    <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                    2 Doors
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                    Automatic
-                                </li>
-                                <li>
-                                    <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                    Petrol
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                        <h4><a href="bike-details.php">Royal Cruiser</a></h4>
+                        <h6>₹1200 <span>/ Day</span></h6>
+                        <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
                                 class="fa-solid fa-arrow-right ps-1"></i></a>
                     </div>
                 </div>
@@ -556,7 +415,7 @@ $SubTitle = 'Single Car';
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                 <div class="car-rentals-items">
                     <div class="car-image">
-                        <img src="assets/img/car/10.jpg" alt="img">
+                        <img src="https://placehold.co/600x400/a0c4ff/333333?text=Volt-Ryder" alt="img">
                     </div>
                     <div class="car-content">
                         <div class="post-cat">
@@ -568,33 +427,11 @@ $SubTitle = 'Single Car';
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <span>2 Reviews</span>
+                            <span>12 Reviews</span>
                         </div>
-                        <h4><a href="car-details.php">Hyundai Accent Limited</a></h4>
-                        <h6>$70.00 <span>/ Day</span></h6>
-                        <div class="icon-items">
-                            <ul>
-                                <li>
-                                    <img src="assets/img/car/seat.svg" alt="img" class="me-1">
-                                    6 Seats
-                                </li>
-                                <li>
-                                    <img src="assets/img/car/door.svg" alt="img" class="me-1">
-                                    2 Doors
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <img src="assets/img/car/automatic.svg" alt="img" class="me-1">
-                                    Automatic
-                                </li>
-                                <li>
-                                    <img src="assets/img/car/petrol.svg" alt="img" class="me-1">
-                                    Petrol
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="car-details.php" class="theme-btn bg-color w-100 text-center">book now <i
+                        <h4><a href="bike-details.php">Volt-Ryder Electric</a></h4>
+                        <h6>₹2500 <span>/ Day</span></h6>
+                        <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
                                 class="fa-solid fa-arrow-right ps-1"></i></a>
                     </div>
                 </div>
@@ -614,7 +451,7 @@ $SubTitle = 'Single Car';
                         <img src="assets/img/logo/white-logo.svg" alt="logo-img">
                     </a>
                 </div>
-                <h4 class="text-white">Save big with our cheap car rental</h4>
+                <h4 class="text-white">Save big with our affordable bike rentals</h4>
             </div>
             <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
                     .5s">

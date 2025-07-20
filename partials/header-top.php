@@ -5,26 +5,24 @@
             <ul class="contact-list">
                 <li>
                     <i class="fas fa-envelope"></i>
-                    <a href="mailto:info@example.com" class="link">info@example.com</a>
+                    <a href="mailto:contact@whizwheels.bike" class="link">contact@whizwheels.bike</a>
                 </li>
                 <li>
                     <i class="fas fa-map-marker-alt"></i>
-                    88 Broklyn Golden Street. New York
+                    Honnavara, Karnataka, India
                 </li>
             </ul>
             <div class="header-top-right">
                 <ul class="top-list">
-                    <li><a href="contact.php">Help</a></li>
-                    <li>/</li>
+                    <li><a href="faq.php">Help & FAQ</a></li>
                     <li><a href="contact.php">Support</a></li>
-                    <li>/</li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <div class="social-icon d-flex align-items-center">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
         </div>
