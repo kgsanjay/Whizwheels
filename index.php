@@ -78,10 +78,12 @@
     <!-- Pick Up Location Section Start -->
     <div class="pickup-loaction-area bg-cover" style="background-image: url('assets/img/brand-bg.png');">
         <div class="container">
+            <!-- The form tag now has an ID and the action/method are removed -->
             <form id="whatsappBookingForm" class="pickup-wrapper wow fadeInUp" data-wow-delay=".4s">
                 <div class="pickup-items">
                     <label for="pickup_location" class="field-label">Pick-up Location</label>
                     <div class="category-oneadjust">
+                        <!-- Each form field now has a 'name' attribute -->
                         <select name="pickup_location" id="pickup_location" class="category">
                             <option value="Not Selected">Select Location</option>
                             <option value="Apsarakonda Falls">Apsarakonda Falls</option>
@@ -120,7 +122,7 @@
                 <div class="pickup-items">
                     <label class="field-label style-2">button</label>
                     <button class="pickup-btn" type="submit">
-                        Book Now
+                        Book on WhatsApp
                     </button>
                 </div>
             </form>
@@ -1064,7 +1066,7 @@
 
     <?php include './partials/footer.php' ?>
 
-    <!-- Booking Success Popup -->
+        <!-- Booking Success Popup -->
     <div id="bookingPopup" class="booking-popup">
         <div class="popup-content">
             <span class="close-popup">&times;</span>
@@ -1092,43 +1094,45 @@
                 // Prevent the form from submitting the traditional way
                 event.preventDefault();
 
-                // Create a FormData object from the form
-                const formData = new FormData(bookingForm);
+                // --- IMPORTANT: EDIT THIS NUMBER ---
+                // Replace with your actual WhatsApp number including country code, without '+' or '00'
+                const whatsappNumber = '917975365475'; 
+                
+                // Get the values from the form fields
+                const location = document.querySelector('[name="pickup_location"]').value;
+                const pickupDate = document.querySelector('[name="pickup_date"]').value;
+                const dropoffDate = document.querySelector('[name="dropoff_date"]').value;
+                const bikeType = document.querySelector('[name="bike_type"]').value;
 
-                // Use fetch to send the data to your PHP script
-                fetch('assets/inc/process-booking.php', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(response => response.json()) // Parse the JSON response from the server
-                .then(data => {
-                    // Check if the script was successful and returned a WhatsApp URL
-                    if (data.success && data.whatsapp_url) {
-                        // Open WhatsApp in a new tab
-                        window.open(data.whatsapp_url, '_blank');
+                // Basic validation: Check if dates are selected
+                if (!pickupDate || !dropoffDate) {
+                    // In a real application, you would show a more user-friendly error message
+                    console.error("Please select a pickup and dropoff date."); 
+                    // You could show an error message to the user here instead of just logging to console
+                    return; 
+                }
 
-                        // Show the success popup
-                        popup.style.display = 'block';
+                // Construct the message for WhatsApp
+                // %0A is used for a new line in the URL
+                let message = `New Bike Booking Request!%0A%0A`;
+                message += `*Location:* ${location}%0A`;
+                message += `*Pickup Date:* ${pickupDate}%0A`;
+                message += `*Dropoff Date:* ${dropoffDate}%0A`;
+                message += `*Bike Type:* ${bikeType}`;
 
-                        // Reset the form fields
-                        bookingForm.reset();
-                        
-                        // If you use a custom select library like 'nice-select', you might need this
-                        // to visually update the dropdowns back to their placeholder text.
-                        if (typeof($) !== 'undefined' && $.fn.niceSelect) {
-                            $('select.category').niceSelect('update');
-                        }
+                // Create the WhatsApp URL
+                const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
-                    } else {
-                        // If there was an error, log it to the console.
-                        // You could show an error popup here as well.
-                        console.error('Error:', data.message || 'An unknown error occurred.');
-                    }
-                })
-                .catch(error => {
-                    // Handle network errors (e.g., if the server can't be reached)
-                    console.error('Fetch Error:', error);
-                });
+                // Open WhatsApp in a new tab
+                window.open(whatsappURL, '_blank');
+
+                // Show the success popup
+                popup.style.display = 'block';
+
+                // Reset the form fields after submission
+                bookingForm.reset();
+                // If you are using a custom select library like 'nice-select', you may need to update it
+                // For example: $('select').niceSelect('update');
             });
 
             // Add event listener to the close button of the popup
