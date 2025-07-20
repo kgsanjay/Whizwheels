@@ -78,52 +78,52 @@
     <!-- Pick Up Location Section Start -->
     <div class="pickup-loaction-area bg-cover" style="background-image: url('assets/img/brand-bg.png');">
         <div class="container">
-            <div class="pickup-wrapper wow fadeInUp" data-wow-delay=".4s">
+            <form id="whatsappBookingForm" class="pickup-wrapper wow fadeInUp" data-wow-delay=".4s">
                 <div class="pickup-items">
-                    <label class="field-label">Pick-up Location</label>
+                    <label for="pickup_location" class="field-label">Pick-up Location</label>
                     <div class="category-oneadjust">
-                        <select name="cate" class="category">
-                            <option value="1">Select Location</option>
-                            <option value="2">Apsarakonda Falls</option>
-                            <option value="3">Murudeshwar Beach</option>
-                            <option value="4">Kasarkod Beach</option>
-                            <option value="5">Sharavathi Mangrove Boardwalk</option>
+                        <select name="pickup_location" id="pickup_location" class="category">
+                            <option value="Not Selected">Select Location</option>
+                            <option value="Apsarakonda Falls">Apsarakonda Falls</option>
+                            <option value="Murudeshwar Beach">Murudeshwar Beach</option>
+                            <option value="Kasarkod Beach">Kasarkod Beach</option>
+                            <option value="Sharavathi Mangrove Boardwalk">Sharavathi Mangrove Boardwalk</option>
                         </select>
                     </div>
                 </div>
                 <div class="pickup-items">
-                    <label class="field-label">Pickup Date</label>
+                    <label for="pickup_date" class="field-label">Pickup Date</label>
                     <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy">
-                        <input class="form-control" type="text" placeholder="Check in" readonly>
+                        <input class="form-control" name="pickup_date" id="pickup_date" type="text" placeholder="Select Date" readonly>
                         <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                     </div>
                 </div>
                 <div class="pickup-items">
-                    <label class="field-label">Dropoff Date</label>
+                    <label for="dropoff_date" class="field-label">Dropoff Date</label>
                     <div id="datepicker2" class="input-group date" data-date-format="dd-mm-yyyy">
-                        <input class="form-control" type="text" placeholder="Check out" readonly>
+                        <input class="form-control" name="dropoff_date" id="dropoff_date" type="text" placeholder="Select Date" readonly>
                         <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                     </div>
                 </div>
                 <div class="pickup-items">
-                    <label class="field-label">Bike Type</label>
+                    <label for="bike_type" class="field-label">Bike Type</label>
                     <div class="category-oneadjust">
-                        <select name="cate" class="category">
-                            <option value="1">All Bikes</option>
-                            <option value="2">Mountain Bike</option>
-                            <option value="3">Road Bike</option>
-                            <option value="4">Cruiser</option>
-                            <option value="5">Electric Bike</option>
+                        <select name="bike_type" id="bike_type" class="category">
+                            <option value="Any">All Bikes</option>
+                            <option value="Mountain Bike">Mountain Bike</option>
+                            <option value="Road Bike">Road Bike</option>
+                            <option value="Cruiser">Cruiser</option>
+                            <option value="Electric Bike">Electric Bike</option>
                         </select>
                     </div>
                 </div>
                 <div class="pickup-items">
                     <label class="field-label style-2">button</label>
                     <button class="pickup-btn" type="submit">
-                        Find a Bike
+                        Book Now
                     </button>
                 </div>
-            </div>
+            </form>
             <div class="brand-wrapper pt-80 pb-80">
                 <div class="array-button">
                     <button class="array-prev-2"><i class="far fa-chevron-left"></i></button>
@@ -1064,7 +1064,137 @@
 
     <?php include './partials/footer.php' ?>
 
+    <!-- Booking Success Popup -->
+    <div id="bookingPopup" class="booking-popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Booking Request Sent!</h3>
+            <p>Thank you for your interest. Our team will contact you soon to confirm your booking.</p>
+            <p>We have opened WhatsApp for you to send the booking details.</p>
+        </div>
+    </div>
+
     <?php include './partials/script.php' ?>
+
+    <script>
+        // Wait for the document to be fully loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            // Find the form by its ID
+            const bookingForm = document.getElementById('whatsappBookingForm');
+            
+            // Find the popup and its close button
+            const popup = document.getElementById('bookingPopup');
+            const closePopup = document.querySelector('.close-popup');
+
+            // Add an event listener for the form submission
+            bookingForm.addEventListener('submit', function (event) {
+                // Prevent the form from submitting the traditional way
+                event.preventDefault();
+
+                // Create a FormData object from the form
+                const formData = new FormData(bookingForm);
+
+                // Use fetch to send the data to your PHP script
+                fetch('assets/inc/process-booking.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json()) // Parse the JSON response from the server
+                .then(data => {
+                    // Check if the script was successful and returned a WhatsApp URL
+                    if (data.success && data.whatsapp_url) {
+                        // Open WhatsApp in a new tab
+                        window.open(data.whatsapp_url, '_blank');
+
+                        // Show the success popup
+                        popup.style.display = 'block';
+
+                        // Reset the form fields
+                        bookingForm.reset();
+                        
+                        // If you use a custom select library like 'nice-select', you might need this
+                        // to visually update the dropdowns back to their placeholder text.
+                        if (typeof($) !== 'undefined' && $.fn.niceSelect) {
+                            $('select.category').niceSelect('update');
+                        }
+
+                    } else {
+                        // If there was an error, log it to the console.
+                        // You could show an error popup here as well.
+                        console.error('Error:', data.message || 'An unknown error occurred.');
+                    }
+                })
+                .catch(error => {
+                    // Handle network errors (e.g., if the server can't be reached)
+                    console.error('Fetch Error:', error);
+                });
+            });
+
+            // Add event listener to the close button of the popup
+            closePopup.addEventListener('click', function () {
+                popup.style.display = 'none';
+            });
+
+            // Also close the popup if the user clicks outside of the content area
+            window.addEventListener('click', function (event) {
+                if (event.target == popup) {
+                    popup.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+    <style>
+        /* Basic styling for the popup */
+        .booking-popup {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 9999; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+            padding-top: 60px;
+        }
+
+        .popup-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        .close-popup {
+            color: #aaa;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close-popup:hover,
+        .close-popup:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+
 </body>
 
 </html>
