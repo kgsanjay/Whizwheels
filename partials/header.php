@@ -6,7 +6,7 @@
                 <div class="header-left">
                     <div class="logo">
                         <a href="index.php" class="header-logo">
-                            <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                            <img src="assets/img/logo/whizwheels-logo.png" alt="logo-img">
                         </a>
                     </div>
                     <div class="mean__menu-wrapper">
