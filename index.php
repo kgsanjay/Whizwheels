@@ -1074,89 +1074,128 @@
         </div>
     </div>
 
+    <!-- Validation Error Popup -->
+    <div id="validationPopup" class="booking-popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3 style="color: #c0392b;">Booking Error</h3>
+            <p id="validationMessage">Please correct the errors before submitting.</p>
+        </div>
+    </div>
+
     <?php include './partials/script.php' ?>
 
     <script>
-        // Wait for the document to be fully loaded
         document.addEventListener('DOMContentLoaded', function () {
-            
-            // Find the form by its ID
-            const bookingForm = document.getElementById('whatsappBookingForm');
-            
-            // Find the popup and its close button
-            const popup = document.getElementById('bookingPopup');
-            const closePopup = document.querySelector('.close-popup');
+            // Initialize Datepickers
+            const pickupDatepicker = $('#datepicker');
+            const dropoffDatepicker = $('#datepicker2');
 
-            // Add an event listener for the form submission
+            pickupDatepicker.datepicker({
+                startDate: '0d', // Disable past dates
+                autoclose: true
+            }).on('changeDate', function(e) {
+                // When pickup date is selected, set it as the start date for the dropoff datepicker
+                dropoffDatepicker.datepicker('setStartDate', e.date);
+                // Clear the dropoff date if it's now invalid
+                if (dropoffDatepicker.datepicker('getDate') < e.date) {
+                    dropoffDatepicker.datepicker('setDate', '');
+                }
+            });
+
+            dropoffDatepicker.datepicker({
+                startDate: '0d', // Disable past dates
+                autoclose: true
+            });
+
+            // Form submission logic
+            const bookingForm = document.getElementById('whatsappBookingForm');
+            const successPopup = document.getElementById('bookingPopup');
+            const validationPopup = document.getElementById('validationPopup');
+            const validationMessage = document.getElementById('validationMessage');
+            const closePopups = document.querySelectorAll('.close-popup');
+
             bookingForm.addEventListener('submit', function (event) {
-                // Prevent the form from submitting the traditional way
                 event.preventDefault();
 
-                // Create a FormData object from the form
+                const pickupDate = pickupDatepicker.datepicker('getDate');
+                const dropoffDate = dropoffDatepicker.datepicker('getDate');
+
+                // --- Validation ---
+                if (!pickupDate || !dropoffDate) {
+                    validationMessage.textContent = 'Please select both a pickup and a dropoff date.';
+                    validationPopup.style.display = 'block';
+                    return;
+                }
+
+                if (dropoffDate < pickupDate) {
+                    validationMessage.textContent = 'The dropoff date cannot be before the pickup date.';
+                    validationPopup.style.display = 'block';
+                    return;
+                }
+
+                // If validation passes, proceed with form submission
                 const formData = new FormData(bookingForm);
 
-                // Use fetch to send the data to your PHP script
                 fetch('assets/inc/process-booking.php', {
                     method: 'POST',
                     body: formData
                 })
-                .then(response => response.json()) // Parse the JSON response from the server
+                .then(response => response.json())
                 .then(data => {
-                    // Check if the script was successful and returned a WhatsApp URL
                     if (data.success && data.whatsapp_url) {
-                        // Open WhatsApp in a new tab
                         window.open(data.whatsapp_url, '_blank');
-
-                        // Show the success popup
-                        popup.style.display = 'block';
-
-                        // Reset the form fields
+                        successPopup.style.display = 'block';
                         bookingForm.reset();
-                        
-                        // If you use a custom select library like 'nice-select', you might need this
-                        // to visually update the dropdowns back to their placeholder text.
                         if (typeof($) !== 'undefined' && $.fn.niceSelect) {
                             $('select.category').niceSelect('update');
                         }
+                        // Reset datepicker values
+                        pickupDatepicker.datepicker('setDate', null);
+                        dropoffDatepicker.datepicker('setDate', null);
+                        dropoffDatepicker.datepicker('setStartDate', '0d');
 
                     } else {
-                        // If there was an error, log it to the console.
-                        // You could show an error popup here as well.
-                        console.error('Error:', data.message || 'An unknown error occurred.');
+                        validationMessage.textContent = data.message || 'An unknown error occurred.';
+                        validationPopup.style.display = 'block';
                     }
                 })
                 .catch(error => {
-                    // Handle network errors (e.g., if the server can't be reached)
                     console.error('Fetch Error:', error);
+                    validationMessage.textContent = 'A network error occurred. Please try again.';
+                    validationPopup.style.display = 'block';
                 });
             });
 
-            // Add event listener to the close button of the popup
-            closePopup.addEventListener('click', function () {
-                popup.style.display = 'none';
+            // Close popup functionality
+            closePopups.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    successPopup.style.display = 'none';
+                    validationPopup.style.display = 'none';
+                });
             });
 
-            // Also close the popup if the user clicks outside of the content area
             window.addEventListener('click', function (event) {
-                if (event.target == popup) {
-                    popup.style.display = 'none';
+                if (event.target == successPopup || event.target == validationPopup) {
+                    successPopup.style.display = 'none';
+                    validationPopup.style.display = 'none';
                 }
             });
         });
     </script>
 
     <style>
-        /* Basic styling for the popup */
+        /* Basic styling for the popups */
         .booking-popup {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 9999; /* Sit on top */
+            display: none; 
+            position: fixed; 
+            z-index: 9999; 
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.6); 
             padding-top: 60px;
         }
 
