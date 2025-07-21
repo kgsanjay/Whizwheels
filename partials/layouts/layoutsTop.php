@@ -9,7 +9,7 @@
 
     <?php include './partials/scroll-up.php' ?>
 
-    <?php include './partials/header-top2.php' ?>
+    <?php include './partials/header-top.php' ?>
 
     <?php include './partials/header.php' ?>
 
