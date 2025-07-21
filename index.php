@@ -272,7 +272,7 @@
                                 <img src="assets/img/about/secondary-shape-color-full.png" alt="shape-img">
                             </div>
                             <div class="car-shape wow fadeInUp" data-wow-delay=".7s">
-                                <img src="https://placehold.co/400x300/cddafd/333333?text=Ride+Free" alt="shape-img">
+                                <img src="assets/img/about/mountain-biking.png" alt="shape-img">
                             </div>
                             <div class="counter-content wow fadeInLeft" data-wow-delay=".4s">
                                 <h2 class="text-white"><span class="count">10</span></h2>
@@ -282,10 +282,10 @@
                                 </p>
                             </div>
                             <div class="about-image-1 wow fadeInDown" data-wow-delay=".3s">
-                                <img src="https://placehold.co/400x500/a2d2ff/333333?text=Mountain+Biking" alt="about-image">
+                                <img src="assets/img/about/bike-rental.png" alt="about-image">
                             </div>
                             <div class="about-image-2 wow fadeInLeft" data-wow-delay=".5s">
-                                <img src="https://placehold.co/300x400/ffafcc/333333?text=City+Rides" alt="about-image">
+                                <img src="assets/img/about/city-ride.png" alt="about-image">
                             </div>
                         </div>
                     </div>
