@@ -272,7 +272,7 @@
                                 <img src="assets/img/about/secondary-shape-color-full.png" alt="shape-img">
                             </div>
                             <div class="car-shape wow fadeInUp" data-wow-delay=".7s">
-                                <img src="assets/img/about/mountain-biking.png" alt="shape-img">
+                                <img src="assets/img/about/bike-rental.png" alt="shape-img">
                             </div>
                             <div class="counter-content wow fadeInLeft" data-wow-delay=".4s">
                                 <h2 class="text-white"><span class="count">10</span></h2>
@@ -282,7 +282,7 @@
                                 </p>
                             </div>
                             <div class="about-image-1 wow fadeInDown" data-wow-delay=".3s">
-                                <img src="assets/img/about/bike-rental.png" alt="about-image">
+                                <img src="assets/img/about/mountain-biking.png" alt="about-image">
                             </div>
                             <div class="about-image-2 wow fadeInLeft" data-wow-delay=".5s">
                                 <img src="assets/img/about/city-ride.png" alt="about-image">
@@ -354,7 +354,7 @@
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="https://placehold.co/600x400/fdffb6/333333?text=Mountain+Bike" alt="bike-img">
+                                <img src="assets/img/bike/mountain-bike.png" alt="Mountain Bike">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
@@ -378,7 +378,7 @@
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="https://placehold.co/600x400/caffbf/333333?text=Road+Bike" alt="bike-img">
+                                <img src="assets/img/bike/road-bike.png" alt="Road Bike">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
@@ -402,7 +402,7 @@
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="https://placehold.co/600x400/9bf6ff/333333?text=City+Cruiser" alt="bike-img">
+                                <img src="assets/img/bike/city-cruiser.png" alt="City Cruiser">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
@@ -426,7 +426,7 @@
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="https://placehold.co/600x400/a0c4ff/333333?text=Electric+Bike" alt="bike-img">
+                                <img src="assets/img/bike/electric-bike.png" alt="Electric Bike">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
