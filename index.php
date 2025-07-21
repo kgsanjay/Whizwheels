@@ -462,7 +462,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="service-car-image">
-                            <img src="https://placehold.co/800x600/ffd6a5/333333?text=Premium+Bikes" alt="img">
+                            <img src="assets/img/bike/premium-bike.png" alt="Premium Bike">
                             <div class="color-shape">
                                 <img src="assets/img/car/secondary-shape-color.png" alt="shape-img">
                             </div>
@@ -491,7 +491,7 @@
 
     <!-- Funfact Section Start -->
     <section class="funfact-section section-padding bg-cover"
-        style="background-image: url('assets/img/funfact-bg.jpg');">
+        style="background-image: url('assets/img/hero/hero-4.png');">
         <div class="container">
             <div class="funfact-wrapper">
                 <div class="row g-4 align-items-center">
