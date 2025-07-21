@@ -30,7 +30,7 @@
         <div class="swiper hero-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="hero-image bg-cover" style="background-image: url('https://placehold.co/1920x1080/a2d2ff/333333?text=Awesome+Bike+Trails');">
+                    <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/hero-2.png');">
                         <div class="overlay-shape">
                             <img src="assets/img/hero/overlay.png" alt="img">
                         </div>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="hero-image bg-cover" style="background-image: url('https://placehold.co/1920x1080/ffafcc/333333?text=Explore+Honnavara');">
+                    <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/hero-3.png');">
                         <div class="overlay-shape">
                             <img src="assets/img/hero/overlay.png" alt="img">
                         </div>
