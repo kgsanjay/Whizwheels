@@ -491,7 +491,7 @@
 
     <!-- Funfact Section Start -->
     <section class="funfact-section section-padding bg-cover"
-        style="background-image: url('assets/img/hero/hero-4.png');">
+        style="background-image: url('assets/img/bike/bike-bg.png');">
         <div class="container">
             <div class="funfact-wrapper">
                 <div class="row g-4 align-items-center">
@@ -564,7 +564,7 @@
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="https://placehold.co/600x400/ffadad/333333?text=Mountain+Bikes" alt="img">
+                            <img src="assets/img/bike/mountain-bike.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -575,7 +575,7 @@
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="https://placehold.co/600x400/ffd6a5/333333?text=Road+Bikes" alt="img">
+                            <img src="assets/img/bike/road-bike.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -586,7 +586,7 @@
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="https://placehold.co/600x400/fdffb6/333333?text=Cruiser+Bikes" alt="img">
+                            <img src="assets/img/bike/city-cruiser.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -608,7 +608,7 @@
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
-                            <img src="https://placehold.co/600x400/9bf6ff/333333?text=Electric+Bikes" alt="img">
+                            <img src="assets/img/bike/electric-bike.png" alt="img">
                         </div>
                     </div>
                 </div>
