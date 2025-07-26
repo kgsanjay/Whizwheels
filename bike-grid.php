@@ -1,6 +1,6 @@
 <?php
 $headTitle = 'Our Bikes';
-$img = 'assets/img/bg-header-banner.jpg';
+$img = 'assets/img/bike/bike-bg.png';
 $Title = 'Home';
 $Title2 = 'Bikes';
 $SubTitle = 'Bike Grid';
