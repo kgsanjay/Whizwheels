@@ -1011,7 +1011,7 @@
                     <div class="cta-rental-items">
                         <h4 class="wow fadeInUp" data-wow-delay=".3s">Faster, easier access to bike rental services</h4>
                         <h2 class="wow fadeInUp" data-wow-delay=".5s">Premium Bike Rental</h2>
-                        <div class="rental-app-button">
+                        <!-- <div class="rental-app-button">
                             <a href="index.php" class="app-button-items wow fadeInUp" data-wow-delay=".7s">
                                 <span class="button-icon"><i class="fa-solid fa-play"></i></span>
                                 <span class="button-text">
@@ -1026,7 +1026,7 @@
                                     <span class="headding-text">Play Store</span>
                                 </span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
@@ -1046,7 +1046,7 @@
                     .3s">
                     <div class="logo-thumb">
                         <a href="index.php">
-                            <img src="assets/img/logo/whizwheels-logo.png" alt="logo-img">
+                            <img src="assets/img/logo/whizwheels-white-logo.png" alt="logo-img">
                         </a>
                     </div>
                     <h4 class="text-white">Save big with our cheap bike rental</h4>
