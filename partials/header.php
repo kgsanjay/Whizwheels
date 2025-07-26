@@ -19,7 +19,7 @@
                                     <li>
                                         <a href="about.php">About Us</a>
                                     </li>
-                                    <li class="has-dropdown">
+                                    <!-- <li class="has-dropdown">
                                         <a href="#">
                                             Pages
                                             <i class="fas fa-angle-down"></i>
@@ -28,8 +28,8 @@
                                             <li><a href="gallery.php">Gallery</a></li>
                                             <li><a href="faq.php">Faq's</a></li>
                                         </ul>
-                                    </li>
-                                    <li class="has-dropdown">
+                                    </li> -->
+                                    <!-- <li class="has-dropdown">
                                         <a href="bike-grid.php">
                                             Bikes
                                             <i class="fas fa-angle-down"></i>
@@ -39,16 +39,16 @@
                                             <li><a href="bike-list.php">Bike List</a></li>
                                             <li><a href="bike-details.php">Bike Details</a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                     <li class="has-dropdown">
                                         <a href="news.php">
                                             Blog
-                                            <i class="fas fa-angle-down"></i>
+                                            <!-- <i class="fas fa-angle-down"></i> -->
                                         </a>
-                                        <ul class="submenu">
+                                        <!-- <ul class="submenu">
                                             <li><a href="news.php">Blog</a></li>
                                             <li><a href="news-details.php">Blog Details</a></li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li>
                                         <a href="contact.php">Contact</a>
