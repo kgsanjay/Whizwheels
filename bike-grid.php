@@ -12,10 +12,10 @@ $SubTitle = 'Bike Grid';
 <section class="car-rentals-section-2 section-padding fix">
     <div class="container">
         <div class="row g-4">
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+            <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="car-rentals-items mt-0">
                     <div class="car-image">
-                        <img src="https://placehold.co/600x400/9bf6ff/333333?text=Himalayan+Explorer" alt="img">
+                        <img src="assets/img/bike/mountain-bike.png" alt="img">
                     </div>
                     <div class="car-content">
                         <div class="post-cat">
@@ -29,17 +29,19 @@ $SubTitle = 'Bike Grid';
                             <i class="fa-solid fa-star-half-stroke"></i>
                             <span>5 Reviews</span>
                         </div>
-                        <h4><a href="bike-details.php">Himalayan Explorer</a></h4>
-                        <h6>₹1500 <span>/ Day</span></h6>
-                        <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">Book Now <i
-                                class="fa-solid fa-arrow-right ps-1"></i></a>
+                        <h4><a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20the%20Mountain%20Explorer%20bike%20for%20rent.">Mountain Explorer</a></h4>
+                       <h6>₹1500 <span>/ Day</span></h6>
+                        <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20the%20Mountain%20Explorer%20bike%20for%20rent.%20Is%20it%20available%3F" 
+                        target="_blank" class="theme-btn bg-success w-100 text-center text-white">
+                            <i class="fab fa-whatsapp pe-1"></i> Book on WhatsApp
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+            <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="car-rentals-items mt-0">
                     <div class="car-image">
-                        <img src="https://placehold.co/600x400/caffbf/333333?text=City+Sprinter" alt="img">
+                        <img src="assets/img/bike/road-bike.png" alt="img">
                     </div>
                     <div class="car-content">
                         <div class="post-cat">
@@ -53,17 +55,19 @@ $SubTitle = 'Bike Grid';
                             <i class="fa-solid fa-star"></i>
                             <span>8 Reviews</span>
                         </div>
-                        <h4><a href="bike-details.php">City Sprinter Road Bike</a></h4>
+                        <h4><a href="bike-details.php">Speed Demon Road Bike</a></h4>
                         <h6>₹1800 <span>/ Day</span></h6>
-                        <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">Book Now <i
-                                class="fa-solid fa-arrow-right ps-1"></i></a>
+                        <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20the%20Speed%20Demon%20Road%20Bike%20for%20rent.%20Is%20it%20available%3F" 
+                        target="_blank" class="theme-btn bg-success w-100 text-center text-white">
+                            <i class="fab fa-whatsapp pe-1"></i> Book on WhatsApp
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+            <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                 <div class="car-rentals-items mt-0">
                     <div class="car-image">
-                        <img src="https://placehold.co/600x400/9bf6ff/333333?text=Royal+Cruiser" alt="img">
+                        <img src="assets/img/bike/city-cruiser.png" alt="img">
                     </div>
                     <div class="car-content">
                         <div class="post-cat">
@@ -77,17 +81,20 @@ $SubTitle = 'Bike Grid';
                             <i class="fa-regular fa-star"></i>
                             <span>4 Reviews</span>
                         </div>
-                        <h4><a href="bike-details.php">Royal Cruiser</a></h4>
+                        <h4><a href="bike-details.php">Comfort Cruiser</a></h4>
                         <h6>₹1200 <span>/ Day</span></h6>
-                        <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">Book Now <i
-                                class="fa-solid fa-arrow-right ps-1"></i></a>
+                        <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20the%20Comfort%20Cruiser%20bike%20for%20rent.%20Is%20it%20available%3F" 
+                        target="_blank" class="theme-btn bg-success w-100 text-center text-white">
+                            <i class="fab fa-whatsapp pe-1"></i> Book on WhatsApp
+                        </a>
+
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+            <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="car-rentals-items mt-0">
                     <div class="car-image">
-                        <img src="https://placehold.co/600x400/a0c4ff/333333?text=Volt-Ryder" alt="img">
+                        <img src="assets/img/bike/electric-bike.png" alt="img">
                     </div>
                     <div class="car-content">
                         <div class="post-cat">
@@ -103,12 +110,14 @@ $SubTitle = 'Bike Grid';
                         </div>
                         <h4><a href="bike-details.php">Volt-Ryder Electric</a></h4>
                         <h6>₹2500 <span>/ Day</span></h6>
-                        <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">Book Now <i
-                                class="fa-solid fa-arrow-right ps-1"></i></a>
+                        <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20the%20Volt-Ryder%20Electric%20bike%20for%20rent.%20Is%20it%20available%3F" 
+                        target="_blank" class="theme-btn bg-success w-100 text-center text-white">
+                            <i class="fab fa-whatsapp pe-1"></i> Book on WhatsApp
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+            <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="car-rentals-items mt-0">
                     <div class="car-image">
                         <img src="https://placehold.co/600x400/ffadad/333333?text=Urban+Commuter" alt="img">
@@ -155,7 +164,7 @@ $SubTitle = 'Bike Grid';
                                 class="fa-solid fa-arrow-right ps-1"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
