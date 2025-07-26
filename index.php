@@ -557,7 +557,7 @@
                 </h2>
             </div>
             <div class="row g-4 mt-30">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="popular-card-items">
                         <div class="content">
                             <h4><a href="bike-details.php">Mountain Bikes</a></h4>
@@ -568,7 +568,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="popular-card-items">
                         <div class="content">
                             <h4><a href="bike-details.php">Road Bikes</a></h4>
@@ -579,7 +579,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="popular-card-items">
                         <div class="content">
                             <h4><a href="bike-details.php">Cruiser Bikes</a></h4>
@@ -590,18 +590,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="popular-card-items">
-                        <div class="content">
-                            <h4><a href="bike-details.php">Hybrid Bikes</a></h4>
-                            <p>Available for Rent</p>
-                        </div>
-                        <div class="car-image">
-                            <img src="https://placehold.co/600x400/caffbf/333333?text=Hybrid+Bikes" alt="img">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="popular-card-items">
                         <div class="content">
                             <h4><a href="bike-details.php">Electric Bikes</a></h4>
@@ -612,7 +601,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                <!-- <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="popular-card-items">
+                        <div class="content">
+                            <h4><a href="bike-details.php">Hybrid Bikes</a></h4>
+                            <p>Available for Rent</p>
+                        </div>
+                        <div class="car-image">
+                            <img src="https://placehold.co/600x400/caffbf/333333?text=Hybrid+Bikes" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="popular-card-items">
                         <div class="content">
                             <h4><a href="bike-details.php">Kids Bikes</a></h4>
@@ -622,11 +622,11 @@
                             <img src="https://placehold.co/600x400/a0c4ff/333333?text=Kids+Bikes" alt="img">
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="popular-car-text wow fadeInUp" data-wow-delay=".4s">
                 <h6>Bike rental services specifically for our customers.</h6>
-                <a href="bike-grid.php" class="theme-btn">Find a Bike</a>
+                <a href="https://wa.me/{$whatsapp_number}?text=" class="theme-btn">Find a Bike</a>
             </div>
         </div>
     </section>
@@ -1031,7 +1031,7 @@
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
                     <div class="mobile-remons-image">
-                        <img src="assets/img/mobile-remons.png" alt="img">
+                        <img src="assets/img/mobile-whizwheels.png" alt="img">
                     </div>
                 </div>
             </div>
@@ -1046,7 +1046,7 @@
                     .3s">
                     <div class="logo-thumb">
                         <a href="index.php">
-                            <img src="assets/img/logo/white-logo.svg" alt="logo-img">
+                            <img src="assets/img/logo/whizwheels-logo.png" alt="logo-img">
                         </a>
                     </div>
                     <h4 class="text-white">Save big with our cheap bike rental</h4>
