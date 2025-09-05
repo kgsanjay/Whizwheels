@@ -44,6 +44,8 @@
                                     </h4>
                                     <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
                                         Bike <span>Rental</span>
+                                         <!-- welcome to <span>WhizWheels</span> -->
+
                                     </h1>
                                 </div>
                             </div>
@@ -77,17 +79,14 @@
 
     <!-- Pick Up Location Section Start -->
     <div class="pickup-loaction-area bg-cover" style="background-image: url('assets/img/brand-bg.png');">
-        <div class="container">
+        <div class="container pb-4">
             <form id="whatsappBookingForm" class="pickup-wrapper wow fadeInUp" data-wow-delay=".4s">
                 <div class="pickup-items">
                     <label for="pickup_location" class="field-label">Pick-up Location</label>
                     <div class="category-oneadjust">
                         <select name="pickup_location" id="pickup_location" class="category">
-                            <option value="Not Selected">Select Location</option>
-                            <option value="Apsarakonda Falls">Apsarakonda Falls</option>
-                            <option value="Murudeshwar Beach">Murudeshwar Beach</option>
-                            <option value="Kasarkod Beach">Kasarkod Beach</option>
-                            <option value="Sharavathi Mangrove Boardwalk">Sharavathi Mangrove Boardwalk</option>
+                            <option value="" selected disabled>Select Location</option>
+                            <option value="Palya Road, Honnavar">Palya Road, Honnavar</option>
                         </select>
                     </div>
                 </div>
@@ -105,26 +104,24 @@
                         <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
                     </div>
                 </div>
-                <div class="pickup-items">
+                 <div class="pickup-items">
+                    <!-- CHANGED: Bike type is now specific to available bikes -->
                     <label for="bike_type" class="field-label">Bike Type</label>
                     <div class="category-oneadjust">
                         <select name="bike_type" id="bike_type" class="category">
-                            <option value="Any">All Bikes</option>
-                            <option value="Mountain Bike">Mountain Bike</option>
-                            <option value="Road Bike">Road Bike</option>
-                            <option value="Cruiser">Cruiser</option>
-                            <option value="Electric Bike">Electric Bike</option>
+                            <option value="Honda Dio DLX">Honda Dio DLX</option>
+                            <option value="Any">Any Available</option>
                         </select>
                     </div>
                 </div>
                 <div class="pickup-items">
                     <label class="field-label style-2">button</label>
-                    <button class="pickup-btn" type="submit">
+                    <button class="pickup-btn" type="submit" disabled>
                         Book Now
                     </button>
                 </div>
             </form>
-            <div class="brand-wrapper pt-80 pb-80">
+            <!-- <div class="brand-wrapper pt-80 pb-80">
                 <div class="array-button">
                     <button class="array-prev-2"><i class="far fa-chevron-left"></i></button>
                     <button class="array-next-2"><i class="far fa-chevron-right"></i></button>
@@ -163,11 +160,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <!-- Feature Benefit Section Start -->
+   <!-- Feature Benefit Section Start -->
     <section class="feature-benefit section section-padding fix">
         <div class="container">
             <div class="section-title text-center">
@@ -189,18 +187,18 @@
                         </div>
                         <div class="feature-content">
                             <h4>
-                                <a href="bike-details.php">
+                                <a href="">
                                     Easier & <br>
                                     Faster Bookings
                                 </a>
                             </h4>
-                            <p>Neque porro quisquam est, qui fre dolorem ipsum quia dolor.</p>
+                            <p>Book your favorite bike in just a few clicks with our simple online process.</p>
                             <div class="icon">
                                 <img src="assets/img/feature-benefit/icon-1.png" alt="icon-img">
                             </div>
                         </div>
                         <div class="feature-button">
-                            <a href="bike-details.php" class="link-btn">View More <i
+                            <a href="" class="link-btn">View More <i
                                     class="fa-solid fa-arrow-right ps-1"></i></a>
                         </div>
                     </div>
@@ -215,18 +213,18 @@
                         </div>
                         <div class="feature-content">
                             <h4>
-                                <a href="bike-details.php">
-                                    Too Many <br>
-                                    Pickup Locations
+                                <a href="">
+                                    Well-Maintained <br>
+                                    Bikes
                                 </a>
                             </h4>
-                            <p>Neque porro quisquam est, qui fre dolorem ipsum quia dolor.</p>
+                            <p>For a safe ride, our bikes are professionally maintained and serviced.</p>
                             <div class="icon">
                                 <img src="assets/img/feature-benefit/icon-2.png" alt="icon-img">
                             </div>
                         </div>
                         <div class="feature-button">
-                            <a href="bike-details.php" class="link-btn">View More <i
+                            <a href="" class="link-btn">View More <i
                                     class="fa-solid fa-arrow-right ps-1"></i></a>
                         </div>
                     </div>
@@ -241,18 +239,18 @@
                         </div>
                         <div class="feature-content">
                             <h4>
-                                <a href="bike-details.php">
+                                <a href="">
                                     Customers <br>
                                     100% Satisfied
                                 </a>
                             </h4>
-                            <p>Neque porro quisquam est, qui fre dolorem ipsum quia dolor.</p>
+                            <p>We pride ourselves on providing excellent service and ensuring customer happiness.</p>
                             <div class="icon">
                                 <img src="assets/img/feature-benefit/icon-3.png" alt="icon-img">
                             </div>
                         </div>
                         <div class="feature-button">
-                            <a href="bike-details.php" class="link-btn">View More <i
+                            <a href="" class="link-btn">View More <i
                                     class="fa-solid fa-arrow-right ps-1"></i></a>
                         </div>
                     </div>
@@ -262,7 +260,7 @@
     </section>
 
     <!-- About Section Start -->
-    <section class="about-section fix section-padding pt-0">
+   <section class="about-section fix section-padding pt-0" id="about">
         <div class="container">
             <div class="about-wrapper">
                 <div class="row g-4">
@@ -275,11 +273,12 @@
                                 <img src="assets/img/about/bike-rental.png" alt="shape-img">
                             </div>
                             <div class="counter-content wow fadeInLeft" data-wow-delay=".4s">
-                                <h2 class="text-white"><span class="count">10</span></h2>
+                                <h2 class="text-white"><span class="count">500</span>+</h2>
                                 <p class="text-white">
-                                    Years of <br>
-                                    Experience
+                                    Happy <br>
+                                    Customers
                                 </p>
+
                             </div>
                             <div class="about-image-1 wow fadeInDown" data-wow-delay=".3s">
                                 <img src="assets/img/about/mountain-biking.png" alt="about-image">
@@ -295,24 +294,22 @@
                                 <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
                                 <span class="wow fadeInUp" data-wow-delay=".2s">Get to know us</span>
                                 <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                                    Services with a Wide
-                                    Range of Bikes
+                                    Your Adventure, Our Priority
                                 </h2>
                             </div>
                             <h4 class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".3s">
-                                Committed to providing our customers with exceptional service.
+                                More than just rentals, we offer complete travel solutions.
                             </h4>
                             <p class="wow fadeInUp" data-wow-delay=".5s">
-                                Lorem ipsum is simply ipun txns mane so dummy text of free available in market the
-                                printing and typesetting industry has been the industry's standard dummy text ever.
+                                At Whizwheels, we believe your trip to Honnavar should be unforgettable. We provide top-quality, reliable bikes for you to explore the stunning coastline and lush landscapes. But we don't stop there. We also offer curated home stays and exciting boating excursions to make your stay truly special.
                             </p>
                             <div class="about-list-item wow fadeInUp" data-wow-delay=".7s">
                                 <ul>
                                     <li>
-                                        Many Pickup Locations
+                                       All-in-One Packages
                                     </li>
                                     <li>
-                                        Offering Low Prices
+                                        Affordable Prices
                                     </li>
                                 </ul>
                                 <ul>
@@ -320,11 +317,10 @@
                                         24/7 Customer Support
                                     </li>
                                     <li>
-                                        Well-Maintained Bikes
+                                        Local Expertise
                                     </li>
                                 </ul>
                             </div>
-                            <a href="about.php" class="theme-btn wow fadeInUp" data-wow-delay=".8s">Discover More</a>
                         </div>
                     </div>
                 </div>
@@ -333,7 +329,7 @@
     </section>
 
     <!-- Bike Rentals Section Start -->
-    <section class="car-rentals-section section-padding fix">
+    <section class="car-rentals-section section-padding fix" id="bikes">
         <div class="container">
             <div class="section-title text-center">
                 <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
@@ -353,27 +349,27 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
-                            <div class="car-image">
-                                <img src="assets/img/bike/mountain-bike.png" alt="Mountain Bike">
-                            </div>
-                            <div class="car-content">
-                                <div class="post-cat">
-                                    2024 Model
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                    <span>5 Reviews</span>
-                                </div>
-                                <h4><a href="bike-details.php">Mountain Explorer</a></h4>
-                                <h6>₹1500 <span>/ Day</span></h6>
-                                <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
-                                        class="fa-solid fa-arrow-right ps-1"></i></a>
-                            </div>
+                        <div class="car-image">
+                            <img src="assets/img/bike/honda-dio.png" alt="Honda Dio DLX">
                         </div>
+                        <div class="car-content">
+                            <div class="post-cat">
+                                Available
+                            </div>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <h4><a href="">Honda Dio DLX</a></h4>
+                            <!-- <h6>Starting at ₹699*</h6> -->
+                            <a href="https://wa.me/918660989586?text=Hi%2C%20I%20want%20to%20book%20the%20Honda%20Dio%20DLX%20for%20rent.%20Is%20it%20available%3F" target="_blank" class="theme-btn bg-color w-100 text-center">book now <i
+                                    class="fa-solid fa-arrow-right ps-1"></i></a>
+                        </div>
+                    </div>
+                        
                     </div>
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
@@ -382,44 +378,44 @@
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
-                                    2024 Model
+                                    Comming Soon
                                 </div>
-                                <div class="star">
+                                <!-- <div class="star">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <span>8 Reviews</span>
-                                </div>
-                                <h4><a href="bike-details.php">Speed Demon Road Bike</a></h4>
-                                <h6>₹1800 <span>/ Day</span></h6>
-                                <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
-                                        class="fa-solid fa-arrow-right ps-1"></i></a>
+                                </div> -->
+                                <h4><a href="">Speed Demon Road Bike</a></h4>
+                                <!-- <h6>₹1800 <span>/ Day</span></h6> -->
+                                <!-- <a href="" class="theme-btn bg-color w-100 text-center">book now <i
+                                        class="fa-solid fa-arrow-right ps-1"></i></a> -->
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="car-rentals-items">
                             <div class="car-image">
-                                <img src="assets/img/bike/city-cruiser.png" alt="City Cruiser">
+                                <img src="assets/img/bike/mountain-bike.png" alt="Mountain Bike">
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
-                                    2023 Model
+                                    Comming Soon
                                 </div>
-                                <div class="star">
+                                <!-- <div class="star">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <span>4 Reviews</span>
-                                </div>
-                                <h4><a href="bike-details.php">Comfort Cruiser</a></h4>
-                                <h6>₹1200 <span>/ Day</span></h6>
-                                <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
-                                        class="fa-solid fa-arrow-right ps-1"></i></a>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <span>5 Reviews</span>
+                                </div> -->
+                                <h4><a href="">Mountain Explorer</a></h4>
+                                <!-- <h6>₹1500 <span>/ Day</span></h6> -->
+                                <!-- <a href="" class="theme-btn bg-color w-100 text-center">book now <i
+                                        class="fa-solid fa-arrow-right ps-1"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -430,20 +426,20 @@
                             </div>
                             <div class="car-content">
                                 <div class="post-cat">
-                                    2024 Model
+                                    Comming Soon
                                 </div>
-                                <div class="star">
+                                <!-- <div class="star">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <span>12 Reviews</span>
-                                </div>
-                                <h4><a href="bike-details.php">Electric Bolt</a></h4>
-                                <h6>₹2500 <span>/ Day</span></h6>
-                                <a href="bike-details.php" class="theme-btn bg-color w-100 text-center">book now <i
-                                        class="fa-solid fa-arrow-right ps-1"></i></a>
+                                </div> -->
+                                <h4><a href="">Electric Bolt</a></h4>
+                                <!-- <h6>₹2500 <span>/ Day</span></h6> -->
+                                <!-- <a href="" class="theme-btn bg-color w-100 text-center">book now <i
+                                        class="fa-solid fa-arrow-right ps-1"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -468,7 +464,7 @@
                             </div>
                             <div class="booking-content">
                                 <p>Call for booking</p>
-                                <h3><a href="tel:+919876543210">+91 98765 43210</a></h3>
+                                <h3><a href="tel:+918660989586">+91 86609 89586</a></h3>
                             </div>
                         </div>
                     </div>
@@ -478,10 +474,7 @@
                                 Looking for a Premium <br>
                                 Bike Rental?
                             </h2>
-                            <h3 class="wow fadeInUp" data-wow-delay=".5s">
-                                <span>Starting at</span> <sup>₹</sup> 900 <span class="text">/day</span>
-                            </h3>
-                            <a href="bike-grid.php" class="theme-btn wow fadeInUp" data-wow-delay=".7s">Discover More</a>
+                            <a href="#bikes" class="theme-btn wow fadeInUp" data-wow-delay=".7s">Discover More</a>
                         </div>
                     </div>
                 </div>
@@ -545,8 +538,64 @@
         </div>
     </section>
 
+    <section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <img src="assets/img/sub-icon.png" alt="icon-img" class="">
+            <p class="text-uppercase text-muted fw-bold">Explore Our Services</p>
+            <h2 class="fw-bold">
+                More Than Just Motorbike Rentals
+            </h2>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="assets/img/services/1.png" class="card-img-top" alt="Motorbike Rental">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title"><a href="" class="text-decoration-none text-dark">Motorbike Rental</a></h5>
+                        <p class="card-text">Our primary service, offering a wide range of bikes for your adventure.</p>
+                        <a href="https://wa.me/918660989586?text=I'm%20interested%20in%20renting%20a%20motorbike." class="btn btn-primary mt-auto" target="_blank">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="assets/img/services/2.png" class="card-img-top" alt="Self-Drive Car Rental">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Self-Drive Cars</h5>
+                        <p class="card-text">Explore Honnavar and its surroundings with the comfort of a car.</p>
+                        <a href="https://wa.me/918660989586?text=I'm%20inquiring%20about%20self-drive%20car%20availability." class="btn btn-primary mt-auto" target="_blank">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="assets/img/services/3.png" class="card-img-top" alt="Homestay Booking">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Homestay Booking</h5>
+                        <p class="card-text">Find the perfect place to stay and experience local hospitality.</p>
+                        <a href="https://wa.me/918660989586?text=I'd%20like%20to%20know%20more%20about%20homestay%20bookings." class="btn btn-primary mt-auto" target="_blank">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="assets/img/services/4.png" class="card-img-top" alt="Boating Booking">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Boating Trips</h5>
+                        <p class="card-text">Experience the serene backwaters and coastal beauty of Honnavar.</p>
+                        <a href="https://wa.me/918660989586?text=Please%20provide%20details%20about%20boating%20trip%20bookings." class="btn btn-primary mt-auto" target="_blank">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
     <!-- Popular Bike Section Start -->
-    <section class="popular-car-section fix section-padding">
+    <!-- <section class="popular-car-section fix section-padding">
         <div class="container">
             <div class="section-title text-center">
                 <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
@@ -560,7 +609,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="bike-details.php">Mountain Bikes</a></h4>
+                            <h4><a href="">Mountain Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
@@ -571,7 +620,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="bike-details.php">Road Bikes</a></h4>
+                            <h4><a href="">Road Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
@@ -582,7 +631,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="bike-details.php">Cruiser Bikes</a></h4>
+                            <h4><a href="">Cruiser Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
@@ -593,7 +642,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="popular-card-items">
                         <div class="content">
-                            <h4><a href="bike-details.php">Electric Bikes</a></h4>
+                            <h4><a href="">Electric Bikes</a></h4>
                             <p>Available for Rent</p>
                         </div>
                         <div class="car-image">
@@ -601,35 +650,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="popular-card-items">
-                        <div class="content">
-                            <h4><a href="bike-details.php">Hybrid Bikes</a></h4>
-                            <p>Available for Rent</p>
-                        </div>
-                        <div class="car-image">
-                            <img src="https://placehold.co/600x400/caffbf/333333?text=Hybrid+Bikes" alt="img">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="popular-card-items">
-                        <div class="content">
-                            <h4><a href="bike-details.php">Kids Bikes</a></h4>
-                            <p>Available for Rent</p>
-                        </div>
-                        <div class="car-image">
-                            <img src="https://placehold.co/600x400/a0c4ff/333333?text=Kids+Bikes" alt="img">
-                        </div>
-                    </div>
-                </div> -->
+               
             </div>
             <div class="popular-car-text wow fadeInUp" data-wow-delay=".4s">
                 <h6>Bike rental services specifically for our customers.</h6>
                 <a href="https://wa.me/{$whatsapp_number}?text=" class="theme-btn">Find a Bike</a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Testimonial Section Start -->
     <section class="testimonial-section fix section-padding">
@@ -640,14 +668,14 @@
             <div class="section-title-area">
                 <div class="section-title">
                     <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                    <span class="wow fadeInUp" data-wow-delay=".2s">our testimonials</span>
+                    <span class="wow fadeInUp" data-wow-delay=".2s">Our Testimonials</span>
                     <h2 class="wow fadeInUp" data-wow-delay=".4s">
                         What They’re Talking <br>
                         About Whizwheels
                     </h2>
                 </div>
                 <p class="wow fadeInUp" data-wow-delay=".5s">
-                    Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse suscipit <br> sagitis leo sit.
+                    Real stories from our satisfied riders who trust us for their journey.
                 </p>
             </div>
             <div class="swiper testimonial-slider">
@@ -660,8 +688,7 @@
                                         <i class="fa-solid fa-quote-left"></i>
                                     </div>
                                     <p>
-                                        I was very impresed by the Whizwheels service lorem ipsum is simply free text used
-                                        by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                        Rented a bike from Whizwheels in Honnavar for a ride up the coast to Gokarna. The motorcycle was in perfect condition, and the team gave us some great tips for the route. Highly recommend! espacially in honnavar 
                                     </p>
                                     <div class="star">
                                         <i class="fa-solid fa-star"></i>
@@ -674,12 +701,12 @@
                             </div>
                             <div class="client-info-items d-flex align-items-center gap-3">
                                 <div class="client-img bg-cover"
-                                    style="background-image: url('assets/img/testimonial/client-1.png');"></div>
+                                    style="background-image: url('https://placehold.co/100x100/EFEFEF/333333?text=SB');"></div>
                                 <div class="content">
                                     <h5>
-                                        Jessica Brown
+                                        Sanjay Bhat
                                     </h5>
-                                    <span>Customer</span>
+                                    <span>Rider</span>
                                 </div>
                             </div>
                         </div>
@@ -692,8 +719,7 @@
                                         <i class="fa-solid fa-quote-left"></i>
                                     </div>
                                     <p>
-                                        I was very impresed by the Whizwheels service lorem ipsum is simply free text used
-                                        by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                        Booking my favorite bike on Whizwheels was so simple. Picked it up from their Honnavar location for a day trip to Murudeshwar. The bike was ready on time, and the process was seamless. No hidden fees, just pure riding pleasure.
                                     </p>
                                     <div class="star">
                                         <i class="fa-solid fa-star"></i>
@@ -706,12 +732,12 @@
                             </div>
                             <div class="client-info-items d-flex align-items-center gap-3">
                                 <div class="client-img bg-cover"
-                                    style="background-image: url('assets/img/testimonial/client-2.png');"></div>
+                                    style="background-image: url('https://placehold.co/100x100/E1E1E1/333333?text=KN');"></div>
                                 <div class="content">
                                     <h5>
-                                        Kevin Martin
+                                        Keshav Naik
                                     </h5>
-                                    <span>Customer</span>
+                                    <span>Rider</span>
                                 </div>
                             </div>
                         </div>
@@ -724,8 +750,7 @@
                                         <i class="fa-solid fa-quote-left"></i>
                                     </div>
                                     <p>
-                                        I was very impresed by the Whizwheels service lorem ipsum is simply free text used
-                                        by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                        Top-notch service! I took one of their bikes on a longer ride to Jog Falls. The motorcycle was reliable and well-maintained, handled the winding roads perfectly. Whizwheels is my go-to for any bike rental in the Honnavar area.
                                     </p>
                                     <div class="star">
                                         <i class="fa-solid fa-star"></i>
@@ -738,12 +763,12 @@
                             </div>
                             <div class="client-info-items d-flex align-items-center gap-3">
                                 <div class="client-img bg-cover"
-                                    style="background-image: url('assets/img/testimonial/client-3.png');"></div>
+                                     style="background-image: url('https://placehold.co/100x100/F5F5F5/333333?text=NB');"></div>
                                 <div class="content">
                                     <h5>
-                                        Jessica Brown
+                                        Narayan Bhat    
                                     </h5>
-                                    <span>Customer</span>
+                                    <span>Rider</span>
                                 </div>
                             </div>
                         </div>
@@ -753,8 +778,10 @@
         </div>
     </section>
 
+
+
     <!-- Gallery Section Start -->
-    <div class="gallery-section fix">
+    <!-- <div class="gallery-section fix">
         <div class="gallery-wrapper">
             <div class="row g-4">
                 <div class="col-xxl-4 col-xl-5 col-lg-5">
@@ -879,128 +906,130 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- News Section Start -->
-    <section class="news-section section-padding fix">
-        <div class="container">
-            <div class="section-title text-center">
-                <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                <span class="wow fadeInUp" data-wow-delay=".2s">From the Blog</span>
-                <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                    Latest News & <br>
-                    Articles From the Blog
-                </h2>
+   <!-- News Section Start -->
+<section class="news-section section-padding fix" id="blog">
+    <div class="container">
+        <div class="section-title text-center">
+            <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
+            <span class="wow fadeInUp" data-wow-delay=".2s">From the Blog</span>
+            <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                Latest News & <br>
+                Articles From the Blog
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="news-card-items">
+                    <div class="news-image">
+                        <img src="https://placehold.co/600x400/b9fbc0/333333?text=Jog+Falls" alt="Jog Falls on a bike">
+                        <div class="post-date">
+                            <h6>
+                                02 <br>
+                                Sep
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <div class="post-client">
+                            <img src="https://placehold.co/50x50/e0e0e0/333333?text=RH" alt="author" style="border-radius: 50%;">
+                        </div>
+                        <div class="news-cont">
+                            <span>by Rohan Hegde</span>
+                            <h3><a>A Thrilling Bike Ride from Honnavar to Jog Falls</a></h3>
+                            <p>Experience the Western Ghats like never before. Grab a bike from Whizwheels and conquer the scenic route to India's famous waterfalls.</p>
+                        </div>
+                        <ul>
+                            <!-- <li>
+                                <i class="fa-solid fa-comments"></i>
+                                4 Comments
+                            </li> -->
+                            <!-- <li>
+                                <a href="jog-falls.php">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    More
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="news-card-items">
-                        <div class="news-image">
-                            <img src="https://placehold.co/600x400/b9fbc0/333333?text=Blog+Post+1" alt="news-img">
-                            <div class="post-date">
-                                <h6>
-                                    20 <br>
-                                    Mar
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="news-content">
-                            <div class="post-client">
-                                <img src="assets/img/news/client.png" alt="img">
-                            </div>
-                            <div class="news-cont">
-                                <span>by Mike Hardson</span>
-                                <h3><a href="news-details.php">Top 5 Scenic Biking Trails to Explore This Summer</a></h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
-                            </div>
-                            <ul>
-                                <li>
-                                    <i class="fa-solid fa-comments"></i>
-                                    2 Comments
-                                </li>
-                                <li>
-                                    <a href="news-details.php">
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                        More
-                                    </a>
-                                </li>
-                            </ul>
+            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="news-card-items">
+                    <div class="news-image">
+                        <img src="https://placehold.co/600x400/90dbf4/333333?text=Gokarna+Coast" alt="Coastal ride to Gokarna">
+                        <div class="post-date">
+                            <h6>
+                                28 <br>
+                                Aug
+                            </h6>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="news-card-items">
-                        <div class="news-image">
-                            <img src="https://placehold.co/600x400/90dbf4/333333?text=Blog+Post+2" alt="news-img">
-                            <div class="post-date">
-                                <h6>
-                                    26 <br>
-                                    Mar
-                                </h6>
-                            </div>
+                    <div class="news-content">
+                        <div class="post-client">
+                            <img src="https://placehold.co/50x50/e0e0e0/333333?text=PK" alt="author" style="border-radius: 50%;">
                         </div>
-                        <div class="news-content">
-                            <div class="post-client">
-                                <img src="assets/img/news/client.png" alt="img">
-                            </div>
-                            <div class="news-cont">
-                                <span>by Sarah Green</span>
-                                <h3><a href="news-details.php">A Guide to Choosing the Perfect Rental Bike</a></h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
-                            </div>
-                            <ul>
-                                <li>
-                                    <i class="fa-solid fa-comments"></i>
-                                    5 Comments
-                                </li>
-                                <li>
-                                    <a href="news-details.php">
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                        More
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="news-cont">
+                            <span>by Priya Kamath</span>
+                            <h3><a>Coastal Karnataka on Two Wheels: Honnavar to Gokarna</a></h3>
+                            <p>Feel the sea breeze on a ride to Murudeshwar and Gokarna's serene beaches. Your perfect coastal adventure starts with a Whizwheels rental.</p>
                         </div>
+                        <ul>
+                            <!-- <li>
+                                <i class="fa-solid fa-comments"></i>
+                                7 Comments
+                            </li> -->
+                            <!-- <li>
+                                <a href="news-details.php">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    More
+                                </a>
+                            </li> -->
+                        </ul>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="news-card-items">
-                        <div class="news-image">
-                            <img src="https://placehold.co/600x400/f1c0e8/333333?text=Blog+Post+3" alt="news-img">
-                            <div class="post-date">
-                                <h6>
-                                    29 <br>
-                                    Mar
-                                </h6>
-                            </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                <div class="news-card-items">
+                    <div class="news-image">
+                        <img src="https://placehold.co/600x400/f1c0e8/333333?text=Apsarakonda+Falls" alt="Apsarakonda Falls">
+                        <div class="post-date">
+                            <h6>
+                                25 <br>
+                                Aug
+                            </h6>
                         </div>
-                        <div class="news-content">
-                            <div class="post-client">
-                                <img src="assets/img/news/client.png" alt="img">
-                            </div>
-                            <div class="news-cont">
-                                <span>by Alex Johnson</span>
-                                <h3><a href="news-details.php">Benefits of City Biking for Health and Environment</a></h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
-                            </div>
-                            <ul>
-                                <li>
-                                    <i class="fa-solid fa-comments"></i>
-                                    8 Comments
-                                </li>
-                                <li>
-                                    <a href="news-details.php">
-                                        <i class="fa-solid fa-arrow-right-long"></i>
-                                        More
-                                    </a>
-                                </li>
-                            </ul>
+                    </div>
+                    <div class="news-content">
+                        <div class="post-client">
+                           <img src="https://placehold.co/50x50/e0e0e0/333333?text=AP" alt="author" style="border-radius: 50%;">
                         </div>
+                        <div class="news-cont">
+                            <span>by Anand Pai</span>
+                            <h3><a>Hidden Gems: Apsarakonda Falls & Kasarkod Beach</a></h3>
+                            <p>Discover Honnavar's local secrets. A short, pleasant ride on a Whizwheels bike is all it takes to find these magical spots.</p>
+                        </div>
+                        <ul>
+                            <!-- <li>
+                                <i class="fa-solid fa-comments"></i>
+                                5 Comments
+                            </li> -->
+                            <!-- <li>
+                                <a href="news-details.php">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    More
+                                </a>
+                            </li> -->
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
 
     <!-- Cta Rental Section Start -->
     <section class="cta-rental-section bg-cover fix section-padding"
@@ -1037,6 +1066,111 @@
             </div>
         </div>
     </section>
+    <section class="contact-section-1 fix section-padding pb-0" id="contact">
+    <div class="container">
+        <div class="contact-wrapper-area">
+            <div class="row g-4">
+                <div class="col-lg-9">
+                    <div class="contact-content">
+                        <div class="section-title">
+                            <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
+                            <span class="wow fadeInUp" data-wow-delay=".2s">contact us</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                                Drop us a Line
+                            </h2>
+                        </div>
+                        <form action="assets/inc/process-contact.php" id="contact-form" method="POST"
+                            class="contact-form-items mt-5 mt-md-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="form-clt">
+                                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-clt">
+                                        <input type="text" name="email" id="email2" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-clt">
+                                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-clt">
+                                        <input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-clt">
+                                        <textarea name="message" id="message" placeholder="Write a Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <button type="submit" class="theme-btn">
+                                        Send a Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact-right-items">
+                        <div class="contact-img">
+                            <img src="https://placehold.co/400x300/cddafd/333333?text=Contact+Us" alt="img">
+                        </div>
+                        <div class="icon-items">
+                            <div class="icon">
+                                <img src="assets/img/question.png" alt="img">
+                            </div>
+                            <div class="content">
+                                <p>Have a Question?</p>
+                                <h6><a href="tel:+918660989586">+91 86609 89586</a></h6>
+                            </div>
+                        </div>
+                        <div class="icon-items">
+                            <div class="icon">
+                                <img src="assets/img/email.png" alt="img">
+                            </div>
+                            <div class="content">
+                                <p>Write Email</p>
+                                <h6><a href="mailto:contact@whizwheels.in" class="link">contact@whizwheels.in</a></h6>
+                            </div>
+                        </div>
+                        <div class="icon-items">
+                            <div class="icon">
+                                <img src="assets/img/location.png" alt="img">
+                            </div>
+                            <div class="content">
+                                <p>Visit Office</p>
+                                <h6>
+                                    Honnavara, Karnataka, India
+                                </h6>
+                            </div>
+                        </div>
+                        <!-- <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<< Map Section Start >>-->
+<div class="map-section">
+    <div class="map-items">
+        <div class="googpemap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4994.327209427085!2d74.4456906760988!3d14.27793748617109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc3af103db7413%3A0x7afc84df7ea0274b!2s7CHX%2B58C%2C%20Honnavar%2C%20Karnataka!5e1!3m2!1sen!2sin!4v1757082863027!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
 
     <!-- Cta Cheap Rental Section Start -->
     <section class="cta-cheap-rental-section">
@@ -1091,22 +1225,49 @@
             const pickupDatepicker = $('#datepicker');
             const dropoffDatepicker = $('#datepicker2');
 
+            // Form Elements for Validation
+            const bookNowBtn = document.querySelector('.pickup-btn');
+            const pickupLocationSelect = document.getElementById('pickup_location');
+            const pickupDateInput = document.getElementById('pickup_date');
+            const dropoffDateInput = document.getElementById('dropoff_date');
+            const bikeTypeSelect = document.getElementById('bike_type');
+            const formFields = [pickupLocationSelect, pickupDateInput, dropoffDateInput, bikeTypeSelect];
+
+            function checkFormValidity() {
+                const isFormValid = formFields.every(field => field.value && field.value.trim() !== "");
+                bookNowBtn.disabled = !isFormValid;
+            }
+            
+            // Attach listeners to check validity on change
+            $(pickupLocationSelect).on('change', checkFormValidity);
+            $(bikeTypeSelect).on('change', checkFormValidity);
+
             pickupDatepicker.datepicker({
                 startDate: '0d', // Disable past dates
                 autoclose: true
             }).on('changeDate', function(e) {
-                // When pickup date is selected, set it as the start date for the dropoff datepicker
-                dropoffDatepicker.datepicker('setStartDate', e.date);
-                // Clear the dropoff date if it's now invalid
-                if (dropoffDatepicker.datepicker('getDate') < e.date) {
-                    dropoffDatepicker.datepicker('setDate', '');
+                if (e.date) {
+                    var pickupDate = new Date(e.date);
+                    
+                    var nextDay = new Date(pickupDate);
+                    nextDay.setDate(pickupDate.getDate() + 1);
+                    dropoffDatepicker.datepicker('setStartDate', nextDay);
+
+                    var currentDropDate = dropoffDatepicker.datepicker('getDate');
+                    if (!currentDropDate || currentDropDate <= pickupDate) {
+                        dropoffDatepicker.datepicker('setDate', nextDay);
+                    }
                 }
+                checkFormValidity();
             });
 
             dropoffDatepicker.datepicker({
-                startDate: '0d', // Disable past dates
+                startDate: '1d', 
                 autoclose: true
-            });
+            }).on('changeDate', checkFormValidity);
+
+            // Initial check to set the button state
+            checkFormValidity();
 
             // Form submission logic
             const bookingForm = document.getElementById('whatsappBookingForm');
@@ -1118,18 +1279,27 @@
             bookingForm.addEventListener('submit', function (event) {
                 event.preventDefault();
 
-                const pickupDate = pickupDatepicker.datepicker('getDate');
-                const dropoffDate = dropoffDatepicker.datepicker('getDate');
-
-                // --- Validation ---
-                if (!pickupDate || !dropoffDate) {
-                    validationMessage.textContent = 'Please select both a pickup and a dropoff date.';
+                // Re-validate before submission as a safeguard
+                if (bookNowBtn.disabled) {
+                    validationMessage.textContent = 'Please fill out all the required fields before booking.';
                     validationPopup.style.display = 'block';
                     return;
                 }
 
-                if (dropoffDate < pickupDate) {
-                    validationMessage.textContent = 'The dropoff date cannot be before the pickup date.';
+                const pickupLocation = document.getElementById('pickup_location').value;
+                const pickupDate = pickupDatepicker.datepicker('getDate');
+                const dropoffDate = dropoffDatepicker.datepicker('getDate');
+                const bikeType = document.getElementById('bike_type').value;
+
+                // --- Validation ---
+                if (!pickupLocation || !pickupDate || !dropoffDate || !bikeType) {
+                    validationMessage.textContent = 'Please fill out all the required fields before booking.';
+                    validationPopup.style.display = 'block';
+                    return;
+                }
+
+                if (dropoffDate <= pickupDate) {
+                    validationMessage.textContent = 'The dropoff date must be after the pickup date.';
                     validationPopup.style.display = 'block';
                     return;
                 }
@@ -1182,6 +1352,67 @@
                 }
             });
         });
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const contactForm = document.getElementById('contact-form');
+        const messageContainer = document.getElementById('form-message-container');
+        
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // Stop the default browser submission
+
+                const formData = new FormData(contactForm);
+                const submitButton = contactForm.querySelector('button[type="submit"]');
+
+                // Clear previous messages
+                messageContainer.innerHTML = '';
+
+                // Disable button and show loading text to prevent multiple submissions
+                submitButton.disabled = true;
+                submitButton.textContent = 'Sending...';
+
+                // Send the form data to the PHP script
+                fetch('assets/inc/process-contact.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        // Handle server errors (like 500, 404 etc.)
+                        throw new Error(`Server error: ${response.statusText}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Create a message element
+                    const messageDiv = document.createElement('div');
+                    messageDiv.textContent = data.message;
+
+                    if (data.success) {
+                        // On success, add success class, reset the form
+                        messageDiv.className = 'form-message success';
+                        contactForm.reset(); 
+                    } else {
+                        // On failure, add error class
+                        messageDiv.className = 'form-message error';
+                    }
+                    // Display the message
+                    messageContainer.appendChild(messageDiv);
+                })
+                .catch(error => {
+                    // Handle network errors or other fetch-related issues
+                    console.error('Submission Error:', error);
+                    messageContainer.innerHTML = `<div class="form-message error">An unexpected error occurred. Please try again later.</div>`;
+                })
+                .finally(() => {
+                    // Re-enable the button and restore its text, regardless of outcome
+                    submitButton.disabled = false;
+                    submitButton.textContent = 'Send a Message';
+                });
+            });
+        }
+    });
     </script>
 
     <style>

@@ -5,8 +5,8 @@
             <div class="offcanvas__content">
                 <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
-                        <a href="/">
-                            <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                        <a href="./">
+                            <img src="assets/img/logo/1.png" alt="logo-img">
                         </a>
                     </div>
                     <div class="offcanvas__close">
@@ -35,37 +35,30 @@
                                 <i class="fal fa-envelope"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="mailto:contact@whizwheels.bike"><span class="mailto:contact@whizwheels.bike">contact@whizwheels.bike</span></a>
+                                <a href="mailto:contact@whizwheels.in"><span class="mailto:contact@whizwheels.in">contact@whizwheels.in</span></a>
                             </div>
                         </li>
-                        <li class="d-flex align-items-center">
-                            <div class="offcanvas__contact-icon mr-15">
-                                <i class="fal fa-clock"></i>
-                            </div>
-                            <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Mon - Fri, 09am - 05pm</a>
-                            </div>
-                        </li>
+                        
                         <li class="d-flex align-items-center">
                             <div class="offcanvas__contact-icon mr-15">
                                 <i class="far fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="tel:1234567890">+1 (23) 456 7890</a>
+                                <a href="tel:+918660989586">+91 86609 89586</a>
                             </div>
                         </li>
                     </ul>
                     <div class="header-button mt-4">
-                        <a href="bike-grid.php" class="theme-btn text-center">
+                        <a href="#bikes" class="theme-btn text-center">
                             <span>Book a Bike<i class="fa-solid fa-arrow-right-long"></i></span>
                         </a>
                     </div>
-                    <div class="social-icon d-flex align-items-center">
+                    <!-- <div class="social-icon d-flex align-items-center">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

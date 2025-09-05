@@ -5,14 +5,14 @@
             <ul class="contact-list">
                 <li>
                     <i class="fas fa-envelope"></i>
-                    <a href="mailto:contact@whizwheels.bike" class="link">contact@whizwheels.bike</a>
+                    <a href="mailto:contact@whizwheels.in" class="link">contact@whizwheels.in</a>
                 </li>
                 <li>
                     <i class="fas fa-map-marker-alt"></i>
                     Honnavara, Karnataka, India
                 </li>
             </ul>
-            <div class="header-top-right">
+            <!-- <div class="header-top-right">
                 <ul class="top-list">
                     <li><a href="faq.php">Help & FAQ</a></li>
                     <li><a href="contact.php">Support</a></li>
@@ -24,7 +24,7 @@
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

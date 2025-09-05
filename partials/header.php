@@ -5,8 +5,8 @@
             <div class="header-main">
                 <div class="header-left">
                     <div class="logo">
-                        <a href="index.php" class="header-logo">
-                            <img src="assets/img/logo/whizwheels-logo.png" alt="logo-img">
+                        <a href="./" class="header-logo">
+                            <img src="assets/img/logo/1.png" alt="logo-img">
                         </a>
                     </div>
                     <div class="mean__menu-wrapper">
@@ -14,10 +14,10 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li class="active">
-                                        <a href="index.php">Home</a>
+                                        <a href="./">Home</a>
                                     </li>
                                     <li>
-                                        <a href="about.php">About Us</a>
+                                        <a href="#about">About Us</a>
                                     </li>
                                     <!-- <li class="has-dropdown">
                                         <a href="#">
@@ -41,7 +41,7 @@
                                         </ul>
                                     </li> -->
                                     <li class="has-dropdown">
-                                        <a href="news.php">
+                                        <a href="#blog">
                                             Blog
                                             <!-- <i class="fas fa-angle-down"></i> -->
                                         </a>
@@ -51,7 +51,7 @@
                                         </ul> -->
                                     </li>
                                     <li>
-                                        <a href="contact.php">Contact</a>
+                                        <a href="#contact">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -65,12 +65,12 @@
                         </div>
                         <div class="content">
                             <p>Call Anytime</p>
-                            <h6><a href="tel:1234567890">+1 (23) 456 7890</a></h6>
+                            <h6><a href="tel:918660989586">+91 86609 89586</a></h6>
                         </div>
                     </div>
-                    <a href="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></a>
+                    <!-- <a href="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></a> -->
                     <div class="header-button">
-                        <a href="bike-grid.php" class="header-btn">
+                        <a href="#bikes" class="header-btn">
                             Find a Bike
                         </a>
                     </div>

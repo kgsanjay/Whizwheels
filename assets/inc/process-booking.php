@@ -3,10 +3,10 @@
 
 // --- CONFIGURATION ---
 // IMPORTANT: Replace with your email address where you want to receive booking notifications.
-$recipient_email = "kgsanjay.kallabbe@gmail.com"; // <--- EDIT THIS EMAIL
+$recipient_email = "contact@whizwheels.in"; // <--- EDIT THIS EMAIL
 
 // IMPORTANT: Replace with your WhatsApp number (country code without '+').
-$whatsapp_number = "917975365475"; // <--- EDIT THIS NUMBER
+$whatsapp_number = "918660989586"; // <--- EDIT THIS NUMBER
 // --- END CONFIGURATION ---
 
 

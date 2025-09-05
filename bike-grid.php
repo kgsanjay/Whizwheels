@@ -9,7 +9,7 @@ $SubTitle = 'Bike Grid';
 <?php include './partials/layouts/layoutsTop.php' ?>
 
 <!-- Car Rentals Section Start -->
-<section class="car-rentals-section-2 section-padding fix">
+<section class="car-rentals-section-2 section-padding fix" >
     <div class="container">
         <div class="row g-4">
             <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
